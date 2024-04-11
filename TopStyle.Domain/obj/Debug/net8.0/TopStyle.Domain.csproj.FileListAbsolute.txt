@@ -1,0 +1,14 @@
+C:\Users\tonyn\OneDrive\Dokument\TopStyleApi\TopStyle.Domain\bin\Debug\net8.0\TopStyle.Domain.deps.json
+C:\Users\tonyn\OneDrive\Dokument\TopStyleApi\TopStyle.Domain\bin\Debug\net8.0\TopStyle.Domain.runtimeconfig.json
+C:\Users\tonyn\OneDrive\Dokument\TopStyleApi\TopStyle.Domain\bin\Debug\net8.0\TopStyle.Domain.dll
+C:\Users\tonyn\OneDrive\Dokument\TopStyleApi\TopStyle.Domain\bin\Debug\net8.0\TopStyle.Domain.pdb
+C:\Users\tonyn\OneDrive\Dokument\TopStyleApi\TopStyle.Domain\obj\Debug\net8.0\TopStyle.Domain.csproj.AssemblyReference.cache
+C:\Users\tonyn\OneDrive\Dokument\TopStyleApi\TopStyle.Domain\obj\Debug\net8.0\TopStyle.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tonyn\OneDrive\Dokument\TopStyleApi\TopStyle.Domain\obj\Debug\net8.0\TopStyle.Domain.AssemblyInfoInputs.cache
+C:\Users\tonyn\OneDrive\Dokument\TopStyleApi\TopStyle.Domain\obj\Debug\net8.0\TopStyle.Domain.AssemblyInfo.cs
+C:\Users\tonyn\OneDrive\Dokument\TopStyleApi\TopStyle.Domain\obj\Debug\net8.0\TopStyle.Domain.csproj.CoreCompileInputs.cache
+C:\Users\tonyn\OneDrive\Dokument\TopStyleApi\TopStyle.Domain\obj\Debug\net8.0\TopStyle.Domain.dll
+C:\Users\tonyn\OneDrive\Dokument\TopStyleApi\TopStyle.Domain\obj\Debug\net8.0\refint\TopStyle.Domain.dll
+C:\Users\tonyn\OneDrive\Dokument\TopStyleApi\TopStyle.Domain\obj\Debug\net8.0\TopStyle.Domain.pdb
+C:\Users\tonyn\OneDrive\Dokument\TopStyleApi\TopStyle.Domain\obj\Debug\net8.0\TopStyle.Domain.genruntimeconfig.cache
+C:\Users\tonyn\OneDrive\Dokument\TopStyleApi\TopStyle.Domain\obj\Debug\net8.0\ref\TopStyle.Domain.dll
