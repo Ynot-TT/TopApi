@@ -4,6 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using TopStyleApi.Domain.Entities;
 
 namespace TopStyle.Domain.Entities
 {
@@ -11,9 +12,9 @@ namespace TopStyle.Domain.Entities
     {
         [Key]
         public int OrderId { get; set; }
-
         public virtual User user { get; set; }
         public int UserId { get; set; }
+        public List<OrderItem> Items { get; set; } 
         public virtual ICollection<Product> Products { get; set; }
     }
 }
