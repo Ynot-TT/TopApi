@@ -8,6 +8,10 @@ using TopStyle.Data.Repos;
 using TopStyle.Domain.Auth.Authentication;
 using TopStyle.Domain.Auth.Interface;
 using TopStyle.Domain.Identity;
+using TopStyleApi.Core.Interfaces;
+using TopStyleApi.Core.Services;
+using TopStyleApi.Data.Interfaces;
+using TopStyleApi.Data.Repos;
 
 namespace TopStyleApi
 {
@@ -29,6 +33,10 @@ namespace TopStyleApi
 
             builder.Services.AddTransient<IUserService, UserService>();
             builder.Services.AddTransient<IUserRepo, UserRepo>();
+
+            builder.Services.AddTransient<IProductService, ProductService>();
+            builder.Services.AddTransient<IProductRepo, ProductRepo>();
+
             builder.Services.AddTransient<IJwtTokenService, JwtTokenService>();
 
             

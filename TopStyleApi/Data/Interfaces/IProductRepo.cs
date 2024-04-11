@@ -10,6 +10,5 @@ namespace TopStyleApi.Data.Interfaces
         Task UpdateProductAsync(Product product);
         Task DeleteProductAsync(int productId, int userId);
         Task<IEnumerable<Product>> GetProductByTitleAsync(string title);
-        Task<IEnumerable<Product>> GetOwnProductsAsync(int userId);
     }
 }

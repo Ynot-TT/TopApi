@@ -36,10 +36,7 @@ namespace TopStyleApi.Data.Repos
             return await _context.Products.ToListAsync();
         }
 
-        public async Task<IEnumerable<Product>> GetOwnProductsAsync(int userId)
-        {
-            throw new NotImplementedException();
-        }
+      
 
         public async Task<Product> GetProductByIdAsync(int productId)
         {

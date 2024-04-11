@@ -142,3 +142,4 @@ C:\Users\tonyn\OneDrive\Dokument\TopStyleApi\TopStyleApi\obj\Debug\net8.0\refint
 C:\Users\tonyn\OneDrive\Dokument\TopStyleApi\TopStyleApi\obj\Debug\net8.0\TopStyleApi.pdb
 C:\Users\tonyn\OneDrive\Dokument\TopStyleApi\TopStyleApi\obj\Debug\net8.0\TopStyleApi.genruntimeconfig.cache
 C:\Users\tonyn\OneDrive\Dokument\TopStyleApi\TopStyleApi\obj\Debug\net8.0\ref\TopStyleApi.dll
+C:\Users\tonyn\OneDrive\Dokument\TopStyleApi\TopStyleApi\obj\Debug\net8.0\TopStyleApi.sourcelink.json

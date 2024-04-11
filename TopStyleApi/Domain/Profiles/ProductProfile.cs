@@ -5,9 +5,9 @@ using TopStyleApi.Domain.DTO;
 
 namespace TopStyleApi.Domain.Profiles
 {
-    public class Product:Profile
+    public class ProductProfile:Profile
     {
-        public Product()
+        public ProductProfile()
         {
             CreateMap<Product, ProductDTO>();
             CreateMap<ProductDTO, Product>();
