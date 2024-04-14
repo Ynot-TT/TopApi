@@ -5,5 +5,6 @@ namespace TopStyle.Domain.Identity
     public class ApplicationUser:IdentityUser
     {
         //Ändra på detta senare
+        
     }
 }

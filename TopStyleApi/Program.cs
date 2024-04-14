@@ -37,6 +37,9 @@ namespace TopStyleApi
             builder.Services.AddTransient<IProductService, ProductService>();
             builder.Services.AddTransient<IProductRepo, ProductRepo>();
 
+            builder.Services.AddTransient<IOrderService, OrderService>();
+            builder.Services.AddTransient<IOrderRepo, OrderRepo>();
+
             builder.Services.AddTransient<IJwtTokenService, JwtTokenService>();
 
             

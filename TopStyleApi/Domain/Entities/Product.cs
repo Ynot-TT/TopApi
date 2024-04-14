@@ -16,7 +16,6 @@ namespace TopStyle.Domain.Entities
         public int Price { get; set; }
         public int CategoryId { get; set; }
         public virtual Category Category { get; set; }
-        public virtual ICollection<Order> Orders { get; set; }
 
         //Förhållande
 

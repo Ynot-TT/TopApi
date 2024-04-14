@@ -46,6 +46,11 @@ namespace TopStyleApi.Core.Services
             return _mapper.Map<IEnumerable<ProductDTO>>(products);  
         }
 
+        public async Task<int?> GetProductPrice(int productId)
+        {
+            return await _repo.GetProductPrice(productId);
+        }
+
         public async Task UpdateProductAsync(ProductDTO product)
         {
             var updateProduct = _mapper.Map<Product>(product);

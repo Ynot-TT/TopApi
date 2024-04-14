@@ -10,7 +10,6 @@ namespace TopStyle.Domain.Entities
         public string Username { get; set; }
         [StringLength(50)]
         public string Password { get; set; }
-
         public virtual ICollection<Order> Orders { get; set; }
 
 

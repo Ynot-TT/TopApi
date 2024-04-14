@@ -1,13 +1,14 @@
 ﻿using TopStyle.Domain.Entities;
+using TopStyleApi.Domain.Entities;
 
 namespace TopStyleApi.Data.Interfaces
 {
     public interface IOrderItemRepo
     {
-        Task<IEnumerable<Product>> GetAllProductsAsync();
-        Task<Product> GetProductByIdAsync(int productId);
-        Task AddProductAsync(Product product);
-        Task UpdateProductAsync(Product product);
-        Task DeleteProductAsync(int productId, int userId);
+        Task<IEnumerable<OrderItem>> GetAllOrderItemsAsync();
+        Task<OrderItem> GetOrderItemByIdAsync(int orderItemId);
+        Task AddOrderItemAsync(OrderItem orderItem);
+        Task UpdateOrderItemAsync(OrderItem orderItem);
+        Task DeleteOrderItemAsync(int orderItemId);
     }
 }

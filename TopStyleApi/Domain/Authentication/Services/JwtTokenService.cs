@@ -16,23 +16,27 @@ namespace TopStyle.Domain.Auth.Authentication
     {
          string IJwtTokenService.CreateToken(UserDTO user)
         {
-            List<Claim> claims = new List<Claim>
-            {
-                new Claim(ClaimTypes.Name, user.Username)
-            };
+            var claims = new List<Claim>
+        {
+            new Claim(ClaimTypes.Name, user.Username),
+            new Claim(ClaimTypes.NameIdentifier, user.UserId.ToString()),
+            // Add additional claims as needed
+            // new Claim(ClaimTypes.Role, "Administrator"),
+            // new Claim("CustomClaim", "CustomValue")
+        };
 
             var secretKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("mysecretKey12345!#123456789101112"));
             var signInCredentials = new SigningCredentials(secretKey, SecurityAlgorithms.HmacSha256);
 
             var tokenOptions = new JwtSecurityToken(
-                   issuer: "http://localhost:5231/",
-                   audience: "http://localhost:5231/",
-            claims: claims,
-                   expires: DateTime.Now.AddMinutes(20),
-                   signingCredentials: signInCredentials
+                issuer: "http://localhost:5283/",
+                audience: "http://localhost:5283/",
+                claims: claims,
+                expires: DateTime.Now.AddMinutes(20), // Adjust expiration time as needed
+                signingCredentials: signInCredentials
+            );
 
-                   );
-            //Här genereras en token upp enligt den konfiguration som vi satt 
+            // Generate token string
             var tokenString = new JwtSecurityTokenHandler().WriteToken(tokenOptions);
             return tokenString;
         }

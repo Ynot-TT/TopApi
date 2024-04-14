@@ -8,6 +8,7 @@ using TopStyle.Domain.Auth.Interface;
 using TopStyle.Domain.DTO;
 using TopStyle.Domain.Entities;
 using TopStyle.Domain.Identity;
+using System.Security.Claims;
 
 namespace TopStyle.Controllers
 {
@@ -39,6 +40,7 @@ namespace TopStyle.Controllers
             var userModel = new ApplicationUser
             {
                 UserName = user.Username
+              
             };
             var result = await _userManager.CreateAsync(userModel, user.Password);
 
@@ -115,6 +117,31 @@ namespace TopStyle.Controllers
         {
             await _userService.DeleteUserAsync(id);
             return Ok("User deleted");
+        }
+
+        [HttpGet]
+        public async Task<ActionResult> GetLoggedInUsers()
+        {
+            var userIdClaim = HttpContext.User.FindFirst(ClaimTypes.NameIdentifier);
+            if (userIdClaim != null)
+            {
+                if (Guid.TryParse(userIdClaim.Value, out Guid userId))
+                {
+                    // User ID parsed successfully
+                    return Ok(new { UserID = userId });
+                }
+                else
+                {
+                    // Unable to parse user ID
+                    return BadRequest("User ID could not be parsed");
+                }
+            }
+            else
+            {
+                // User ID claim not found in token
+                return BadRequest("User ID claim not found in token");
+            }
+
         }
     }
 }

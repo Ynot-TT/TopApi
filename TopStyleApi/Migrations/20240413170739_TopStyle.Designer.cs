@@ -12,7 +12,7 @@ using TopStyle.Data;
 namespace TopStyleApi.Migrations
 {
     [DbContext(typeof(TopStyleContext))]
-    [Migration("20240411231511_TopStyle")]
+    [Migration("20240413170739_TopStyle")]
     partial class TopStyle
     {
         /// <inheritdoc />
@@ -158,21 +158,6 @@ namespace TopStyleApi.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
-            modelBuilder.Entity("OrderProduct", b =>
-                {
-                    b.Property<int>("OrdersOrderId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("ProductsProductId")
-                        .HasColumnType("int");
-
-                    b.HasKey("OrdersOrderId", "ProductsProductId");
-
-                    b.HasIndex("ProductsProductId");
-
-                    b.ToTable("OrderProduct");
-                });
-
             modelBuilder.Entity("TopStyle.Domain.Entities.Category", b =>
                 {
                     b.Property<int>("CategoryId")
@@ -198,10 +183,18 @@ namespace TopStyleApi.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("OrderId"));
 
+                    b.Property<int?>("ProductId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("TotalPrice")
+                        .HasColumnType("int");
+
                     b.Property<int>("UserId")
                         .HasColumnType("int");
 
                     b.HasKey("OrderId");
+
+                    b.HasIndex("ProductId");
 
                     b.HasIndex("UserId");
 
@@ -348,7 +341,7 @@ namespace TopStyleApi.Migrations
 
                     b.HasIndex("ProductId");
 
-                    b.ToTable("OrderItem");
+                    b.ToTable("OrderItems");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
@@ -402,30 +395,19 @@ namespace TopStyleApi.Migrations
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("OrderProduct", b =>
-                {
-                    b.HasOne("TopStyle.Domain.Entities.Order", null)
-                        .WithMany()
-                        .HasForeignKey("OrdersOrderId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("TopStyle.Domain.Entities.Product", null)
-                        .WithMany()
-                        .HasForeignKey("ProductsProductId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-                });
-
             modelBuilder.Entity("TopStyle.Domain.Entities.Order", b =>
                 {
-                    b.HasOne("TopStyle.Domain.Entities.User", "user")
+                    b.HasOne("TopStyle.Domain.Entities.Product", null)
+                        .WithMany("Orders")
+                        .HasForeignKey("ProductId");
+
+                    b.HasOne("TopStyle.Domain.Entities.User", "User")
                         .WithMany("Orders")
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("user");
+                    b.Navigation("User");
                 });
 
             modelBuilder.Entity("TopStyle.Domain.Entities.Product", b =>
@@ -462,6 +444,11 @@ namespace TopStyleApi.Migrations
             modelBuilder.Entity("TopStyle.Domain.Entities.Order", b =>
                 {
                     b.Navigation("Items");
+                });
+
+            modelBuilder.Entity("TopStyle.Domain.Entities.Product", b =>
+                {
+                    b.Navigation("Orders");
                 });
 
             modelBuilder.Entity("TopStyle.Domain.Entities.User", b =>

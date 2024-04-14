@@ -36,8 +36,6 @@ namespace TopStyleApi.Data.Repos
             return await _context.Products.ToListAsync();
         }
 
-      
-
         public async Task<Product> GetProductByIdAsync(int productId)
         {
             return await _context.Products.FindAsync(productId);
@@ -48,6 +46,13 @@ namespace TopStyleApi.Data.Repos
             return await _context.Products
                 .Where(r => r.ProductName.Contains(title))
                 .ToListAsync();
+        }
+
+        public async Task<int?> GetProductPrice(int productId)
+        {
+            var product = await _context.Products.FindAsync(productId);
+
+            return product?.Price;
         }
 
         public async Task UpdateProductAsync(Product product)
@@ -63,5 +68,7 @@ namespace TopStyleApi.Data.Repos
             }
             await _context.SaveChangesAsync();
         }
+
+        
     }
 }
