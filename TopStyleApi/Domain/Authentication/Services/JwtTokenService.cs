@@ -21,28 +21,29 @@ namespace TopStyle.Domain.Auth.Authentication
             _configuration = configuration;
         }
 
-        string IJwtTokenService.CreateToken(UserDTO user)
+        public string CreateToken(UserDTO user)
         {
             List<Claim> claims = new List<Claim>
-           {
-               new Claim(ClaimTypes.Name, user.Username)
-           };
+            {
+                new Claim(ClaimTypes.Name, user.Username),
+            };
 
-            var secretKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration.GetSection("AppSettings:Token").Value!));
+            var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(
+                _configuration.GetSection("AppSettings:Token").Value));
 
-            var signInCredentials = new SigningCredentials(secretKey, SecurityAlgorithms.HmacSha256);
+            var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
 
-            var tokenOptions = new JwtSecurityToken(
-                issuer: "http://localhost:5283/",
-                audience: "http://localhost:5283/",
+            var token = new JwtSecurityToken(
                 claims: claims,
-                expires: DateTime.Now.AddMinutes(20), // Adjust expiration time as needed
-                signingCredentials: signInCredentials
-            );
+                expires: DateTime.Now.AddSeconds(20),
+                signingCredentials: creds);
 
-            // Generate token string
-            var tokenString = new JwtSecurityTokenHandler().WriteToken(tokenOptions);
-            return tokenString;
+            var jwt = new JwtSecurityTokenHandler().WriteToken(token);
+
+            return jwt;
         }
+
+       
+
     }
 }

@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using TopStyle.Core.Interfaces;
 using TopStyle.Data.Interfaces;
+using TopStyle.Data.Repos;
 using TopStyle.Domain.DTO;
 using TopStyle.Domain.Entities;
 
@@ -41,6 +42,7 @@ namespace TopStyle.Core.Services
             }
             return _mapper.Map<UserDTO>(user);
         }
+       
 
         public async Task UpdateUserAsync(UserDTO userDTO)
         {

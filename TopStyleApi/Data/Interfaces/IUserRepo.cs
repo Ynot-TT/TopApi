@@ -9,6 +9,7 @@ namespace TopStyle.Data.Interfaces
         Task AddUserAsync(User user);
         Task UpdateUserAsync(User user);
         Task DeleteUserAsync(int userId);
+        Task<User> GetUserByUsernameAsync(string username);
 
     }
 }

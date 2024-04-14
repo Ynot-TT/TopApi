@@ -28,43 +28,41 @@ namespace TopStyleApi
             builder.Services.AddControllers();
             builder.Services.AddAutoMapper(typeof(Program).Assembly);
 
-
             builder.Services.AddDbContext<TopStyleContext>(
             options => options.UseSqlServer(@"Data Source=localhost;Initial Catalog=TopStyleDB;Integrated Security=SSPI;TrustServerCertificate=True;"));
 
+            //Swagger
             builder.Services.AddSwaggerGen(options =>
             {
-                options.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
+                options.AddSecurityDefinition("oauth2", new OpenApiSecurityScheme
                 {
-                    Description = "Please enter token (\"bearer {token}\")",
                     In = ParameterLocation.Header,
                     Name = "Authorization",
-                    Type = SecuritySchemeType.ApiKey,
+                    Type = SecuritySchemeType.ApiKey
                 });
+
                 options.OperationFilter<SecurityRequirementsOperationFilter>();
             });
 
+            //Authentication
+            builder.Services.AddAuthentication().AddJwtBearer(options =>
+            {
+                options.TokenValidationParameters = new TokenValidationParameters
+                {
+                    ValidateIssuerSigningKey = true,
+                    ValidateAudience = false,
+                    ValidateIssuer = false,
+                    IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(
+                            builder.Configuration.GetSection("AppSettings:Token").Value!))
+                };
+            });
             //Identity
             builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
             .AddEntityFrameworkStores<TopStyleContext>()
             .AddDefaultTokenProviders();
 
-
-
-            builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
-                .AddJwtBearer(options =>
-                {
-                    options.TokenValidationParameters = new TokenValidationParameters
-                    {
-                         ValidateIssuerSigningKey = true,
-                         IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8
-                             .GetBytes(builder.Configuration.GetSection("AppSettings:Token").Value)),
-                         ValidateIssuer = false,
-                         ValidateAudience = false
-                    };
-                });
-
             builder.Services.AddAuthorization();
+
 
             builder.Services.AddTransient<IUserService, UserService>();
             builder.Services.AddTransient<IUserRepo, UserRepo>();
@@ -76,43 +74,6 @@ namespace TopStyleApi
             builder.Services.AddTransient<IOrderRepo, OrderRepo>();
 
             builder.Services.AddTransient<IJwtTokenService, JwtTokenService>();
-
-            
-
-           
-            
-
-            //builder.Services.AddSwaggerGen(opt =>
-            //{
-            //    opt.SwaggerDoc("v1", new OpenApiInfo { Title = "MyAPI", Version = "v1" });
-            //    opt.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
-            //    {
-            //        In = ParameterLocation.Header,
-            //        Description = "Please enter token",
-            //        Name = "Authorization",
-            //        Type = SecuritySchemeType.Http,
-            //        BearerFormat = "JWT",
-            //        Scheme = "bearer"
-            //    });
-
-            //    opt.AddSecurityRequirement(new OpenApiSecurityRequirement
-            //{
-            //      {
-            //new OpenApiSecurityScheme
-            //{
-            //    Reference = new OpenApiReference
-            //    {
-            //        Type=ReferenceType.SecurityScheme,
-            //        Id="Bearer"
-            //    }
-            //},
-            // new string[]{}
-            //     }
-            //        });
-            //});
-
-
-
 
             var app = builder.Build();
             app.UseSwagger();

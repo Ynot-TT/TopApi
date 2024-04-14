@@ -51,5 +51,9 @@ namespace TopStyle.Data.Repos
             dbUser.Password = user.Password;
             await _context.SaveChangesAsync();
         }
+        public async Task<User> GetUserByUsernameAsync(string username) // Implement this method
+        {
+            return await _context.Users.FirstOrDefaultAsync(u => u.Username == username);
+        }
     }
 }

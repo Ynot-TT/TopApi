@@ -40,7 +40,7 @@ namespace TopStyle.Controllers
             var userModel = new ApplicationUser
             {
                 UserName = user.Username
-              
+
             };
             var result = await _userManager.CreateAsync(userModel, user.Password);
 
@@ -57,15 +57,14 @@ namespace TopStyle.Controllers
 
         [HttpPost]
         [Route("/login")]
-        public async Task <IActionResult> Login([FromBody] UserDTO user)
+        public async Task<IActionResult> Login([FromBody] UserDTO user)
         {
             var result = await _signInManager.PasswordSignInAsync(user.Username, user.Password, false, false);
 
             string token = _jwtTokenService.CreateToken(user);
             if (result.Succeeded)
             {
-                //Här kan vi lägga på en JWT token och skicka med i responsen 
-                return Ok($"Inloggad \nToken: {token}"); // provar om token skickas tillbaka när vi loggar in
+                return Ok($"Inloggad \nToken: {token}"); 
             }
             else
             {

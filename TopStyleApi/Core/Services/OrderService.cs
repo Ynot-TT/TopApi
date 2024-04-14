@@ -3,6 +3,7 @@ using TopStyle.Domain.Entities;
 using TopStyleApi.Core.Interfaces;
 using TopStyleApi.Data.Interfaces;
 using TopStyleApi.Domain.DTO;
+using TopStyleApi.Domain.Entities;
 
 namespace TopStyleApi.Core.Services
 {
@@ -23,7 +24,13 @@ namespace TopStyleApi.Core.Services
         {
             var order = new Order
             {
-                UserId = addOrderDTO.UserId
+                UserId = addOrderDTO.UserId,
+                // Map DTOs to entities
+                Items = addOrderDTO.Items.Select(item => new OrderItem
+                {
+                    ProductId = item.ProductId,
+                    Quantity = item.Quantity
+                }).ToList()
             };
 
             // Calculate total price
