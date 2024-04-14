@@ -143,3 +143,6 @@ C:\Users\tonyn\OneDrive\Dokument\TopStyleApi\TopStyleApi\obj\Debug\net8.0\TopSty
 C:\Users\tonyn\OneDrive\Dokument\TopStyleApi\TopStyleApi\obj\Debug\net8.0\TopStyleApi.genruntimeconfig.cache
 C:\Users\tonyn\OneDrive\Dokument\TopStyleApi\TopStyleApi\obj\Debug\net8.0\ref\TopStyleApi.dll
 C:\Users\tonyn\OneDrive\Dokument\TopStyleApi\TopStyleApi\obj\Debug\net8.0\TopStyleApi.sourcelink.json
+C:\Users\tonyn\OneDrive\Dokument\TopStyleApi\TopStyleApi\bin\Debug\net8.0\Scrutor.dll
+C:\Users\tonyn\OneDrive\Dokument\TopStyleApi\TopStyleApi\bin\Debug\net8.0\Swashbuckle.AspNetCore.Filters.dll
+C:\Users\tonyn\OneDrive\Dokument\TopStyleApi\TopStyleApi\bin\Debug\net8.0\Swashbuckle.AspNetCore.Filters.Abstractions.dll

@@ -19,50 +19,26 @@ namespace TopStyleApi.Controllers
     {
         private readonly IOrderService _orderService;
         private readonly IMapper _mapper;
+        private readonly ILogger<OrderController> _logger;
 
-        public OrderController(IOrderService orderService, IMapper mapper)
+        public OrderController(IOrderService orderService, IMapper mapper, ILogger<OrderController> logger)
         {
             _orderService = orderService;
             _mapper = mapper;
+            _logger = logger;
         }
 
         [HttpPost]
         public async Task<ActionResult<Order>> AddOrder(AddOrderDTO addOrderDTO)
         {
-            //await _orderService.AddOrderAsync(addOrderDTO);
-            //return Ok("order created");
 
-            if (addOrderDTO == null || addOrderDTO.Items == null || !addOrderDTO.Items.Any())
-            {
-                return BadRequest("Invalid order data");
-            }
+            // Log user's identity and claims
+            var userIdentity = HttpContext.User.Identity.Name;
+            var userClaims = HttpContext.User.Claims;
+            _logger.LogInformation($"User {userIdentity} accessed AddOrder endpoint with claims: {string.Join(", ", userClaims)}");
 
-            // Get the user ID from the token
-            var userIdClaim = User.FindFirstValue(ClaimTypes.NameIdentifier);
-
-            // Check if the user ID is valid
-            if (string.IsNullOrEmpty(userIdClaim))
-            {
-                return Unauthorized("User not authenticated");
-            }
-
-            // Parse the user ID claim to a Guid
-            if (!Guid.TryParse(userIdClaim, out Guid userIdGuid))
-            {
-                return BadRequest("Invalid user ID format");
-            }
-
-            // Convert the Guid to an int (assuming you want to store it as an int)
-            int userId = userIdGuid.GetHashCode();
-
-            // Assign the user ID to the AddOrderDTO
-            addOrderDTO.UserId = userId;
-
-            // Save the order to the database
             await _orderService.AddOrderAsync(addOrderDTO);
-
-            return Ok("Order created successfully");
-
+            return Ok("order created");
         }
     }
 }

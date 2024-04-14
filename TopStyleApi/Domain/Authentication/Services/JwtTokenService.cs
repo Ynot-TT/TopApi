@@ -14,18 +14,22 @@ namespace TopStyle.Domain.Auth.Authentication
 {
     public class JwtTokenService:IJwtTokenService
     {
-         string IJwtTokenService.CreateToken(UserDTO user)
-        {
-            var claims = new List<Claim>
-        {
-            new Claim(ClaimTypes.Name, user.Username),
-            new Claim(ClaimTypes.NameIdentifier, user.UserId.ToString()),
-            // Add additional claims as needed
-            // new Claim(ClaimTypes.Role, "Administrator"),
-            // new Claim("CustomClaim", "CustomValue")
-        };
+        private readonly IConfiguration _configuration;
 
-            var secretKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("mysecretKey12345!#123456789101112"));
+        public JwtTokenService(IConfiguration configuration)
+        {
+            _configuration = configuration;
+        }
+
+        string IJwtTokenService.CreateToken(UserDTO user)
+        {
+            List<Claim> claims = new List<Claim>
+           {
+               new Claim(ClaimTypes.Name, user.Username)
+           };
+
+            var secretKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration.GetSection("AppSettings:Token").Value!));
+
             var signInCredentials = new SigningCredentials(secretKey, SecurityAlgorithms.HmacSha256);
 
             var tokenOptions = new JwtSecurityToken(
