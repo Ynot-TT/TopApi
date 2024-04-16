@@ -10,6 +10,7 @@ using TopStyle.Domain.Entities;
 using TopStyle.Domain.Identity;
 using System.Security.Claims;
 using Microsoft.EntityFrameworkCore;
+using TopStyleApi.Domain.DTO;
 
 namespace TopStyle.Controllers
 {
@@ -60,20 +61,27 @@ namespace TopStyle.Controllers
 
         [HttpPost]
         [Route("/login")]
-        public async Task<IActionResult> Login([FromBody] UserDTO userDTO)
+        public async Task<IActionResult> Login([FromBody] UserLogInDTO userDTO)
         {
             var user = await _userManager.FindByNameAsync(userDTO.Username);
-            
 
             var result = await _signInManager.CheckPasswordSignInAsync(user!, userDTO.Password, lockoutOnFailure: true);
-            if(!result.Succeeded)
+            if (!result.Succeeded)
             {
                 return Unauthorized("Wrong username or password");
             }
-            var token =  _jwtTokenService.CreateToken(user!.Id);
 
-            return Ok($"Logged In \nToken: {token}");
+            var token = _jwtTokenService.CreateToken(user!.Id);
 
+            // Fetch additional user details
+            var userDetails = new
+            {
+                Username = user.UserName,
+                PhoneNumber = user.PhoneNumber,
+                Email = user.Email
+            };
+
+            return Ok(new { Message = "Logged In", Token = token, UserDetails = userDetails });
         }
 
         [HttpGet]

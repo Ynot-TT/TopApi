@@ -31,8 +31,11 @@ namespace TopStyleApi
             builder.Services.AddControllers();
             builder.Services.AddAutoMapper(typeof(Program).Assembly);
 
-            builder.Services.AddDbContext<TopStyleContext>(
-            options => options.UseSqlServer(@"Data Source=localhost;Initial Catalog=TopStyleDB;Integrated Security=SSPI;TrustServerCertificate=True;"));
+            builder.Services.AddDbContext<TopStyleContext>(options =>
+            {
+                options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
+
+            });
 
             //Identity
             builder.Services.AddIdentity<ApplicationUser, IdentityRole>()

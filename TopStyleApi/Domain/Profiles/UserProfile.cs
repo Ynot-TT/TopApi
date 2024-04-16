@@ -2,6 +2,7 @@
 using TopStyle.Domain.DTO;
 using TopStyle.Domain.Entities;
 using TopStyle.Domain.Identity;
+using TopStyleApi.Domain.DTO;
 
 namespace TopStyle.Domain.Profiles
 {
@@ -11,6 +12,9 @@ namespace TopStyle.Domain.Profiles
         {
             CreateMap<ApplicationUser, UserDTO>();
             CreateMap<UserDTO, ApplicationUser>();
+
+            CreateMap<ApplicationUser, UserLogInDTO>();
+            CreateMap<UserLogInDTO, ApplicationUser>();
         }
     }
 }
