@@ -5,7 +5,6 @@ namespace TopStyleApi.Domain.DTO
 {
     public class AddOrderDTO
     {
-        public int UserId { get; set; }
         public List<AddOrderItemDTO> Items { get; set; }
     }
 }

@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D7ED9A2D-8FD1-4E9A-B370-BA79240E2E28}|TopStyleApi\\TopStyleApi.csproj|c:\\users\\tonyn\\onedrive\\dokument\\topstyleapi\\topstyleapi\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D7ED9A2D-8FD1-4E9A-B370-BA79240E2E28}|TopStyleApi\\TopStyleApi.csproj|solutionrelative:topstyleapi\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D7ED9A2D-8FD1-4E9A-B370-BA79240E2E28}|TopStyleApi\\TopStyleApi.csproj|C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\topstyleapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7ED9A2D-8FD1-4E9A-B370-BA79240E2E28}|TopStyleApi\\TopStyleApi.csproj|solutionrelative:topstyleapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D7ED9A2D-8FD1-4E9A-B370-BA79240E2E28}|TopStyleApi\\TopStyleApi.csproj|C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\topstyleapi\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D7ED9A2D-8FD1-4E9A-B370-BA79240E2E28}|TopStyleApi\\TopStyleApi.csproj|solutionrelative:topstyleapi\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D7ED9A2D-8FD1-4E9A-B370-BA79240E2E28}|TopStyleApi\\TopStyleApi.csproj|C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\topstyleapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D7ED9A2D-8FD1-4E9A-B370-BA79240E2E28}|TopStyleApi\\TopStyleApi.csproj|solutionrelative:topstyleapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7ED9A2D-8FD1-4E9A-B370-BA79240E2E28}|TopStyleApi\\TopStyleApi.csproj|c:\\users\\tonyn\\onedrive\\dokument\\topstyleapi\\topstyleapi\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7ED9A2D-8FD1-4E9A-B370-BA79240E2E28}|TopStyleApi\\TopStyleApi.csproj|solutionrelative:topstyleapi\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D7ED9A2D-8FD1-4E9A-B370-BA79240E2E28}|TopStyleApi\\TopStyleApi.csproj|C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\topstyleapi\\domain\\authentication\\services\\jwttokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D7ED9A2D-8FD1-4E9A-B370-BA79240E2E28}|TopStyleApi\\TopStyleApi.csproj|solutionrelative:topstyleapi\\domain\\authentication\\services\\jwttokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D7ED9A2D-8FD1-4E9A-B370-BA79240E2E28}|TopStyleApi\\TopStyleApi.csproj|C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\topstyleapi\\domain\\identity\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D7ED9A2D-8FD1-4E9A-B370-BA79240E2E28}|TopStyleApi\\TopStyleApi.csproj|solutionrelative:topstyleapi\\domain\\identity\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D7ED9A2D-8FD1-4E9A-B370-BA79240E2E28}|TopStyleApi\\TopStyleApi.csproj|C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\topstyleapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D7ED9A2D-8FD1-4E9A-B370-BA79240E2E28}|TopStyleApi\\TopStyleApi.csproj|solutionrelative:topstyleapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D7ED9A2D-8FD1-4E9A-B370-BA79240E2E28}|TopStyleApi\\TopStyleApi.csproj|C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\topstyleapi\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7ED9A2D-8FD1-4E9A-B370-BA79240E2E28}|TopStyleApi\\TopStyleApi.csproj|solutionrelative:topstyleapi\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D7ED9A2D-8FD1-4E9A-B370-BA79240E2E28}|TopStyleApi\\TopStyleApi.csproj|C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\topstyleapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -31,67 +31,16 @@
       "RelativeMoniker": "D:0:0:{D7ED9A2D-8FD1-4E9A-B370-BA79240E2E28}|TopStyleApi\\TopStyleApi.csproj|solutionrelative:topstyleapi\\core\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D7ED9A2D-8FD1-4E9A-B370-BA79240E2E28}|TopStyleApi\\TopStyleApi.csproj|C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\topstyleapi\\core\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D7ED9A2D-8FD1-4E9A-B370-BA79240E2E28}|TopStyleApi\\TopStyleApi.csproj|solutionrelative:topstyleapi\\core\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D7ED9A2D-8FD1-4E9A-B370-BA79240E2E28}|TopStyleApi\\TopStyleApi.csproj|C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\topstyleapi\\core\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D7ED9A2D-8FD1-4E9A-B370-BA79240E2E28}|TopStyleApi\\TopStyleApi.csproj|solutionrelative:topstyleapi\\core\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D7ED9A2D-8FD1-4E9A-B370-BA79240E2E28}|TopStyleApi\\TopStyleApi.csproj|C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\topstyleapi\\domain\\authentication\\interface\\ijwttokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D7ED9A2D-8FD1-4E9A-B370-BA79240E2E28}|TopStyleApi\\TopStyleApi.csproj|solutionrelative:topstyleapi\\domain\\authentication\\interface\\ijwttokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D7ED9A2D-8FD1-4E9A-B370-BA79240E2E28}|TopStyleApi\\TopStyleApi.csproj|C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\topstyleapi\\core\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7ED9A2D-8FD1-4E9A-B370-BA79240E2E28}|TopStyleApi\\TopStyleApi.csproj|solutionrelative:topstyleapi\\core\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D7ED9A2D-8FD1-4E9A-B370-BA79240E2E28}|TopStyleApi\\TopStyleApi.csproj|C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\topstyleapi\\domain\\profiles\\productprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D7ED9A2D-8FD1-4E9A-B370-BA79240E2E28}|TopStyleApi\\TopStyleApi.csproj|solutionrelative:topstyleapi\\domain\\profiles\\productprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D7ED9A2D-8FD1-4E9A-B370-BA79240E2E28}|TopStyleApi\\TopStyleApi.csproj|C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\topstyleapi\\data\\repos\\orderrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D7ED9A2D-8FD1-4E9A-B370-BA79240E2E28}|TopStyleApi\\TopStyleApi.csproj|solutionrelative:topstyleapi\\data\\repos\\orderrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D7ED9A2D-8FD1-4E9A-B370-BA79240E2E28}|TopStyleApi\\TopStyleApi.csproj|C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\topstyleapi\\data\\repos\\userrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D7ED9A2D-8FD1-4E9A-B370-BA79240E2E28}|TopStyleApi\\TopStyleApi.csproj|solutionrelative:topstyleapi\\data\\repos\\userrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D7ED9A2D-8FD1-4E9A-B370-BA79240E2E28}|TopStyleApi\\TopStyleApi.csproj|C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\topstyleapi\\data\\topstylecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D7ED9A2D-8FD1-4E9A-B370-BA79240E2E28}|TopStyleApi\\TopStyleApi.csproj|solutionrelative:topstyleapi\\data\\topstylecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D7ED9A2D-8FD1-4E9A-B370-BA79240E2E28}|TopStyleApi\\TopStyleApi.csproj|C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\topstyleapi\\core\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D7ED9A2D-8FD1-4E9A-B370-BA79240E2E28}|TopStyleApi\\TopStyleApi.csproj|solutionrelative:topstyleapi\\core\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D7ED9A2D-8FD1-4E9A-B370-BA79240E2E28}|TopStyleApi\\TopStyleApi.csproj|C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\topstyleapi\\data\\interfaces\\iuserrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D7ED9A2D-8FD1-4E9A-B370-BA79240E2E28}|TopStyleApi\\TopStyleApi.csproj|solutionrelative:topstyleapi\\data\\interfaces\\iuserrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D7ED9A2D-8FD1-4E9A-B370-BA79240E2E28}|TopStyleApi\\TopStyleApi.csproj|C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\topstyleapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{D7ED9A2D-8FD1-4E9A-B370-BA79240E2E28}|TopStyleApi\\TopStyleApi.csproj|solutionrelative:topstyleapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\tonyn\\AppData\\Local\\Temp\\.vsdbgsrc\\f1fd8704b51f6534a4a47457b86ebbf3945ebd8a5ca479e385d835ab36b7b00a\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D7ED9A2D-8FD1-4E9A-B370-BA79240E2E28}|TopStyleApi\\TopStyleApi.csproj|C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\topstyleapi\\core\\interfaces\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D7ED9A2D-8FD1-4E9A-B370-BA79240E2E28}|TopStyleApi\\TopStyleApi.csproj|solutionrelative:topstyleapi\\core\\interfaces\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D7ED9A2D-8FD1-4E9A-B370-BA79240E2E28}|TopStyleApi\\TopStyleApi.csproj|C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\topstyleapi\\domain\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D7ED9A2D-8FD1-4E9A-B370-BA79240E2E28}|TopStyleApi\\TopStyleApi.csproj|solutionrelative:topstyleapi\\domain\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D7ED9A2D-8FD1-4E9A-B370-BA79240E2E28}|TopStyleApi\\TopStyleApi.csproj|C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\topstyleapi\\domain\\profiles\\categoryprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D7ED9A2D-8FD1-4E9A-B370-BA79240E2E28}|TopStyleApi\\TopStyleApi.csproj|solutionrelative:topstyleapi\\domain\\profiles\\categoryprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D7ED9A2D-8FD1-4E9A-B370-BA79240E2E28}|TopStyleApi\\TopStyleApi.csproj|C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\topstyleapi\\domain\\profiles\\orderitemprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D7ED9A2D-8FD1-4E9A-B370-BA79240E2E28}|TopStyleApi\\TopStyleApi.csproj|solutionrelative:topstyleapi\\domain\\profiles\\orderitemprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D7ED9A2D-8FD1-4E9A-B370-BA79240E2E28}|TopStyleApi\\TopStyleApi.csproj|C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\topstyleapi\\domain\\profiles\\orderprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D7ED9A2D-8FD1-4E9A-B370-BA79240E2E28}|TopStyleApi\\TopStyleApi.csproj|solutionrelative:topstyleapi\\domain\\profiles\\orderprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D7ED9A2D-8FD1-4E9A-B370-BA79240E2E28}|TopStyleApi\\TopStyleApi.csproj|C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\topstyleapi\\domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7ED9A2D-8FD1-4E9A-B370-BA79240E2E28}|TopStyleApi\\TopStyleApi.csproj|solutionrelative:topstyleapi\\domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D7ED9A2D-8FD1-4E9A-B370-BA79240E2E28}|TopStyleApi\\TopStyleApi.csproj|C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\topstyleapi\\domain\\entities\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -106,44 +55,108 @@
       "RelativeMoniker": "D:0:0:{D7ED9A2D-8FD1-4E9A-B370-BA79240E2E28}|TopStyleApi\\TopStyleApi.csproj|solutionrelative:topstyleapi\\domain\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Migrations\\20240414175527_TopStyle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TopStyleApi\\Migrations\\20240414175527_TopStyle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D7ED9A2D-8FD1-4E9A-B370-BA79240E2E28}|TopStyleApi\\TopStyleApi.csproj|C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\topstyleapi\\domain\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7ED9A2D-8FD1-4E9A-B370-BA79240E2E28}|TopStyleApi\\TopStyleApi.csproj|solutionrelative:topstyleapi\\domain\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D7ED9A2D-8FD1-4E9A-B370-BA79240E2E28}|TopStyleApi\\TopStyleApi.csproj|C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\topstyleapi\\data\\repos\\orderitemrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D7ED9A2D-8FD1-4E9A-B370-BA79240E2E28}|TopStyleApi\\TopStyleApi.csproj|solutionrelative:topstyleapi\\data\\repos\\orderitemrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D7ED9A2D-8FD1-4E9A-B370-BA79240E2E28}|TopStyleApi\\TopStyleApi.csproj|C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\topstyleapi\\data\\topstylecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7ED9A2D-8FD1-4E9A-B370-BA79240E2E28}|TopStyleApi\\TopStyleApi.csproj|solutionrelative:topstyleapi\\data\\topstylecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D7ED9A2D-8FD1-4E9A-B370-BA79240E2E28}|TopStyleApi\\TopStyleApi.csproj|C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\topstyleapi\\data\\interfaces\\iorderitemrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D7ED9A2D-8FD1-4E9A-B370-BA79240E2E28}|TopStyleApi\\TopStyleApi.csproj|solutionrelative:topstyleapi\\data\\interfaces\\iorderitemrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D7ED9A2D-8FD1-4E9A-B370-BA79240E2E28}|TopStyleApi\\TopStyleApi.csproj|C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\topstyleapi\\domain\\identity\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7ED9A2D-8FD1-4E9A-B370-BA79240E2E28}|TopStyleApi\\TopStyleApi.csproj|solutionrelative:topstyleapi\\domain\\identity\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D7ED9A2D-8FD1-4E9A-B370-BA79240E2E28}|TopStyleApi\\TopStyleApi.csproj|C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\topstyleapi\\domain\\dto\\addorderitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D7ED9A2D-8FD1-4E9A-B370-BA79240E2E28}|TopStyleApi\\TopStyleApi.csproj|solutionrelative:topstyleapi\\domain\\dto\\addorderitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D7ED9A2D-8FD1-4E9A-B370-BA79240E2E28}|TopStyleApi\\TopStyleApi.csproj|C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\topstyleapi\\domain\\profiles\\orderprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7ED9A2D-8FD1-4E9A-B370-BA79240E2E28}|TopStyleApi\\TopStyleApi.csproj|solutionrelative:topstyleapi\\domain\\profiles\\orderprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7ED9A2D-8FD1-4E9A-B370-BA79240E2E28}|TopStyleApi\\TopStyleApi.csproj|C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\topstyleapi\\domain\\authentication\\interface\\ijwttokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7ED9A2D-8FD1-4E9A-B370-BA79240E2E28}|TopStyleApi\\TopStyleApi.csproj|solutionrelative:topstyleapi\\domain\\authentication\\interface\\ijwttokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7ED9A2D-8FD1-4E9A-B370-BA79240E2E28}|TopStyleApi\\TopStyleApi.csproj|C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\topstyleapi\\domain\\profiles\\productprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7ED9A2D-8FD1-4E9A-B370-BA79240E2E28}|TopStyleApi\\TopStyleApi.csproj|solutionrelative:topstyleapi\\domain\\profiles\\productprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7ED9A2D-8FD1-4E9A-B370-BA79240E2E28}|TopStyleApi\\TopStyleApi.csproj|C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\topstyleapi\\domain\\profiles\\categoryprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7ED9A2D-8FD1-4E9A-B370-BA79240E2E28}|TopStyleApi\\TopStyleApi.csproj|solutionrelative:topstyleapi\\domain\\profiles\\categoryprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D7ED9A2D-8FD1-4E9A-B370-BA79240E2E28}|TopStyleApi\\TopStyleApi.csproj|C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\topstyleapi\\domain\\profiles\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D7ED9A2D-8FD1-4E9A-B370-BA79240E2E28}|TopStyleApi\\TopStyleApi.csproj|solutionrelative:topstyleapi\\domain\\profiles\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D7ED9A2D-8FD1-4E9A-B370-BA79240E2E28}|TopStyleApi\\TopStyleApi.csproj|C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\topstyleapi\\domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D7ED9A2D-8FD1-4E9A-B370-BA79240E2E28}|TopStyleApi\\TopStyleApi.csproj|solutionrelative:topstyleapi\\domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D7ED9A2D-8FD1-4E9A-B370-BA79240E2E28}|TopStyleApi\\TopStyleApi.csproj|C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\topstyleapi\\domain\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7ED9A2D-8FD1-4E9A-B370-BA79240E2E28}|TopStyleApi\\TopStyleApi.csproj|solutionrelative:topstyleapi\\domain\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Migrations\\20240414172559_TopStyleDB.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TopStyleApi\\Migrations\\20240414172559_TopStyleDB.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D7ED9A2D-8FD1-4E9A-B370-BA79240E2E28}|TopStyleApi\\TopStyleApi.csproj|C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\topstyleapi\\data\\repos\\userrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7ED9A2D-8FD1-4E9A-B370-BA79240E2E28}|TopStyleApi\\TopStyleApi.csproj|solutionrelative:topstyleapi\\data\\repos\\userrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D7ED9A2D-8FD1-4E9A-B370-BA79240E2E28}|TopStyleApi\\TopStyleApi.csproj|C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\topstyleapi\\domain\\dto\\addorderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D7ED9A2D-8FD1-4E9A-B370-BA79240E2E28}|TopStyleApi\\TopStyleApi.csproj|solutionrelative:topstyleapi\\domain\\dto\\addorderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{D7ED9A2D-8FD1-4E9A-B370-BA79240E2E28}|TopStyleApi\\TopStyleApi.csproj|C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\topstyleapi\\domain\\dto\\addorderitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7ED9A2D-8FD1-4E9A-B370-BA79240E2E28}|TopStyleApi\\TopStyleApi.csproj|solutionrelative:topstyleapi\\domain\\dto\\addorderitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7ED9A2D-8FD1-4E9A-B370-BA79240E2E28}|TopStyleApi\\TopStyleApi.csproj|C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\topstyleapi\\domain\\dto\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7ED9A2D-8FD1-4E9A-B370-BA79240E2E28}|TopStyleApi\\TopStyleApi.csproj|solutionrelative:topstyleapi\\domain\\dto\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7ED9A2D-8FD1-4E9A-B370-BA79240E2E28}|TopStyleApi\\TopStyleApi.csproj|C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\topstyleapi\\domain\\dto\\getorderbysearchdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7ED9A2D-8FD1-4E9A-B370-BA79240E2E28}|TopStyleApi\\TopStyleApi.csproj|solutionrelative:topstyleapi\\domain\\dto\\getorderbysearchdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7ED9A2D-8FD1-4E9A-B370-BA79240E2E28}|TopStyleApi\\TopStyleApi.csproj|C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\topstyleapi\\domain\\dto\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7ED9A2D-8FD1-4E9A-B370-BA79240E2E28}|TopStyleApi\\TopStyleApi.csproj|solutionrelative:topstyleapi\\domain\\dto\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7ED9A2D-8FD1-4E9A-B370-BA79240E2E28}|TopStyleApi\\TopStyleApi.csproj|C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\topstyleapi\\data\\repos\\categoryrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7ED9A2D-8FD1-4E9A-B370-BA79240E2E28}|TopStyleApi\\TopStyleApi.csproj|solutionrelative:topstyleapi\\data\\repos\\categoryrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7ED9A2D-8FD1-4E9A-B370-BA79240E2E28}|TopStyleApi\\TopStyleApi.csproj|C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\topstyleapi\\data\\repos\\orderrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7ED9A2D-8FD1-4E9A-B370-BA79240E2E28}|TopStyleApi\\TopStyleApi.csproj|solutionrelative:topstyleapi\\data\\repos\\orderrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7ED9A2D-8FD1-4E9A-B370-BA79240E2E28}|TopStyleApi\\TopStyleApi.csproj|C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\topstyleapi\\data\\repos\\orderitemrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7ED9A2D-8FD1-4E9A-B370-BA79240E2E28}|TopStyleApi\\TopStyleApi.csproj|solutionrelative:topstyleapi\\data\\repos\\orderitemrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D7ED9A2D-8FD1-4E9A-B370-BA79240E2E28}|TopStyleApi\\TopStyleApi.csproj|C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\topstyleapi\\data\\repos\\productrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D7ED9A2D-8FD1-4E9A-B370-BA79240E2E28}|TopStyleApi\\TopStyleApi.csproj|solutionrelative:topstyleapi\\data\\repos\\productrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D7ED9A2D-8FD1-4E9A-B370-BA79240E2E28}|TopStyleApi\\TopStyleApi.csproj|C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\topstyleapi\\domain\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D7ED9A2D-8FD1-4E9A-B370-BA79240E2E28}|TopStyleApi\\TopStyleApi.csproj|solutionrelative:topstyleapi\\domain\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D7ED9A2D-8FD1-4E9A-B370-BA79240E2E28}|TopStyleApi\\TopStyleApi.csproj|C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\topstyleapi\\domain\\profiles\\orderitemprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7ED9A2D-8FD1-4E9A-B370-BA79240E2E28}|TopStyleApi\\TopStyleApi.csproj|solutionrelative:topstyleapi\\domain\\profiles\\orderitemprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Migrations\\20240415210944_TopStyle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TopStyleApi\\Migrations\\20240415210944_TopStyle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Migrations\\20240415210831_TopStyle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TopStyleApi\\Migrations\\20240415210831_TopStyle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Migrations\\20240415210207_TopStyle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TopStyleApi\\Migrations\\20240415210207_TopStyle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Migrations\\20240415205159_TopStyle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TopStyleApi\\Migrations\\20240415205159_TopStyle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7ED9A2D-8FD1-4E9A-B370-BA79240E2E28}|TopStyleApi\\TopStyleApi.csproj|C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\topstyleapi\\data\\interfaces\\iorderrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7ED9A2D-8FD1-4E9A-B370-BA79240E2E28}|TopStyleApi\\TopStyleApi.csproj|solutionrelative:topstyleapi\\data\\interfaces\\iorderrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7ED9A2D-8FD1-4E9A-B370-BA79240E2E28}|TopStyleApi\\TopStyleApi.csproj|C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\topstyleapi\\data\\interfaces\\iuserrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7ED9A2D-8FD1-4E9A-B370-BA79240E2E28}|TopStyleApi\\TopStyleApi.csproj|solutionrelative:topstyleapi\\data\\interfaces\\iuserrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D7ED9A2D-8FD1-4E9A-B370-BA79240E2E28}|TopStyleApi\\TopStyleApi.csproj|C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\topstyleapi\\core\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -154,16 +167,43 @@
       "RelativeMoniker": "D:0:0:{D7ED9A2D-8FD1-4E9A-B370-BA79240E2E28}|TopStyleApi\\TopStyleApi.csproj|solutionrelative:topstyleapi\\data\\interfaces\\iproductrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D7ED9A2D-8FD1-4E9A-B370-BA79240E2E28}|TopStyleApi\\TopStyleApi.csproj|C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\topstyleapi\\data\\interfaces\\iorderrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D7ED9A2D-8FD1-4E9A-B370-BA79240E2E28}|TopStyleApi\\TopStyleApi.csproj|solutionrelative:topstyleapi\\data\\interfaces\\iorderrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D7ED9A2D-8FD1-4E9A-B370-BA79240E2E28}|TopStyleApi\\TopStyleApi.csproj|C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\topstyleapi\\core\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7ED9A2D-8FD1-4E9A-B370-BA79240E2E28}|TopStyleApi\\TopStyleApi.csproj|solutionrelative:topstyleapi\\core\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Migrations\\20240415184032_TopStyle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TopStyleApi\\Migrations\\20240415184032_TopStyle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Migrations\\20240415183620_TopTOP.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TopStyleApi\\Migrations\\20240415183620_TopTOP.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7ED9A2D-8FD1-4E9A-B370-BA79240E2E28}|TopStyleApi\\TopStyleApi.csproj|C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\topstyleapi\\core\\interfaces\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7ED9A2D-8FD1-4E9A-B370-BA79240E2E28}|TopStyleApi\\TopStyleApi.csproj|solutionrelative:topstyleapi\\core\\interfaces\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7ED9A2D-8FD1-4E9A-B370-BA79240E2E28}|TopStyleApi\\TopStyleApi.csproj|C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\topstyleapi\\data\\interfaces\\iorderitemrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7ED9A2D-8FD1-4E9A-B370-BA79240E2E28}|TopStyleApi\\TopStyleApi.csproj|solutionrelative:topstyleapi\\data\\interfaces\\iorderitemrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Migrations\\20240415182457_TopStyle2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TopStyleApi\\Migrations\\20240415182457_TopStyle2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Migrations\\20240415174710_TopStyleDB.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TopStyleApi\\Migrations\\20240415174710_TopStyleDB.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\tonyn\\AppData\\Local\\Temp\\.vsdbgsrc\\f1fd8704b51f6534a4a47457b86ebbf3945ebd8a5ca479e385d835ab36b7b00a\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Migrations\\20240414172559_TopStyleDB.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TopStyleApi\\Migrations\\20240414172559_TopStyleDB.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D7ED9A2D-8FD1-4E9A-B370-BA79240E2E28}|TopStyleApi\\TopStyleApi.csproj|C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\topstyleapi\\data\\interfaces\\icategoryrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D7ED9A2D-8FD1-4E9A-B370-BA79240E2E28}|TopStyleApi\\TopStyleApi.csproj|solutionrelative:topstyleapi\\data\\interfaces\\icategoryrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D7ED9A2D-8FD1-4E9A-B370-BA79240E2E28}|TopStyleApi\\TopStyleApi.csproj|C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\topstyleapi\\data\\repos\\categoryrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D7ED9A2D-8FD1-4E9A-B370-BA79240E2E28}|TopStyleApi\\TopStyleApi.csproj|solutionrelative:topstyleapi\\data\\repos\\categoryrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Migrations\\20240413170357_TopStyleDB.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -174,12 +214,8 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TopStyleApi\\Migrations\\20240413163557_TopStyle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D7ED9A2D-8FD1-4E9A-B370-BA79240E2E28}|TopStyleApi\\TopStyleApi.csproj|C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\topstyleapi\\domain\\dto\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D7ED9A2D-8FD1-4E9A-B370-BA79240E2E28}|TopStyleApi\\TopStyleApi.csproj|solutionrelative:topstyleapi\\domain\\dto\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D7ED9A2D-8FD1-4E9A-B370-BA79240E2E28}|TopStyleApi\\TopStyleApi.csproj|C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\topstyleapi\\domain\\dto\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D7ED9A2D-8FD1-4E9A-B370-BA79240E2E28}|TopStyleApi\\TopStyleApi.csproj|solutionrelative:topstyleapi\\domain\\dto\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D7ED9A2D-8FD1-4E9A-B370-BA79240E2E28}|TopStyleApi\\TopStyleApi.csproj|C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Migrations\\20240415211153_TopStyle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7ED9A2D-8FD1-4E9A-B370-BA79240E2E28}|TopStyleApi\\TopStyleApi.csproj|solutionrelative:TopStyleApi\\Migrations\\20240415211153_TopStyle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -189,7 +225,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 202,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -198,92 +234,51 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "JwtTokenService.cs",
-              "DocumentMoniker": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Domain\\Authentication\\Services\\JwtTokenService.cs",
-              "RelativeDocumentMoniker": "TopStyleApi\\Domain\\Authentication\\Services\\JwtTokenService.cs",
-              "ToolTip": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Domain\\Authentication\\Services\\JwtTokenService.cs",
-              "RelativeToolTip": "TopStyleApi\\Domain\\Authentication\\Services\\JwtTokenService.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAACsAAAAJAAAA",
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "TopStyleApi\\Controllers\\OrderController.cs",
+              "ToolTip": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "TopStyleApi\\Controllers\\OrderController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAACMAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-11T21:43:04.122Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ApplicationUser.cs",
-              "DocumentMoniker": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Domain\\Identity\\ApplicationUser.cs",
-              "RelativeDocumentMoniker": "TopStyleApi\\Domain\\Identity\\ApplicationUser.cs",
-              "ToolTip": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Domain\\Identity\\ApplicationUser.cs",
-              "RelativeToolTip": "TopStyleApi\\Domain\\Identity\\ApplicationUser.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-12T14:35:34.522Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Program.cs",
-              "RelativeDocumentMoniker": "TopStyleApi\\Program.cs",
-              "ToolTip": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Program.cs",
-              "RelativeToolTip": "TopStyleApi\\Program.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAQwC8AAABIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-10T19:54:48.792Z",
+              "WhenOpened": "2024-04-13T16:13:56.648Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "ProductProfile.cs",
-              "DocumentMoniker": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Domain\\Profiles\\ProductProfile.cs",
-              "RelativeDocumentMoniker": "TopStyleApi\\Domain\\Profiles\\ProductProfile.cs",
-              "ToolTip": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Domain\\Profiles\\ProductProfile.cs",
-              "RelativeToolTip": "TopStyleApi\\Domain\\Profiles\\ProductProfile.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAFAAAA",
+              "Title": "OrderItem.cs",
+              "DocumentMoniker": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Domain\\Entities\\OrderItem.cs",
+              "RelativeDocumentMoniker": "TopStyleApi\\Domain\\Entities\\OrderItem.cs",
+              "ToolTip": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Domain\\Entities\\OrderItem.cs",
+              "RelativeToolTip": "TopStyleApi\\Domain\\Entities\\OrderItem.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-11T11:07:06.153Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-15T22:14:30.653Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "IJwtTokenService.cs",
-              "DocumentMoniker": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Domain\\Authentication\\Interface\\IJwtTokenService.cs",
-              "RelativeDocumentMoniker": "TopStyleApi\\Domain\\Authentication\\Interface\\IJwtTokenService.cs",
-              "ToolTip": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Domain\\Authentication\\Interface\\IJwtTokenService.cs",
-              "RelativeToolTip": "TopStyleApi\\Domain\\Authentication\\Interface\\IJwtTokenService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "DocumentIndex": 11,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Domain\\Entities\\Product.cs",
+              "RelativeDocumentMoniker": "TopStyleApi\\Domain\\Entities\\Product.cs",
+              "ToolTip": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Domain\\Entities\\Product.cs",
+              "RelativeToolTip": "TopStyleApi\\Domain\\Entities\\Product.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-12T11:44:33.949Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-11T11:04:47.293Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ProductService.cs",
-              "DocumentMoniker": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Core\\Services\\ProductService.cs",
-              "RelativeDocumentMoniker": "TopStyleApi\\Core\\Services\\ProductService.cs",
-              "ToolTip": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Core\\Services\\ProductService.cs",
-              "RelativeToolTip": "TopStyleApi\\Core\\Services\\ProductService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-11T19:41:20.192Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "OrderService.cs",
-              "DocumentMoniker": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Core\\Services\\OrderService.cs",
-              "RelativeDocumentMoniker": "TopStyleApi\\Core\\Services\\OrderService.cs",
-              "ToolTip": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Core\\Services\\OrderService.cs",
-              "RelativeToolTip": "TopStyleApi\\Core\\Services\\OrderService.cs",
-              "ViewState": "AQIAADAAAAAAAAAAAAAiwF4AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-12T16:52:48.207Z",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\appsettings.json",
+              "RelativeDocumentMoniker": "TopStyleApi\\appsettings.json",
+              "ToolTip": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\appsettings.json",
+              "RelativeToolTip": "TopStyleApi\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-11T11:08:41.758Z",
               "EditorCaption": ""
             },
             {
@@ -294,196 +289,149 @@
               "RelativeDocumentMoniker": "TopStyleApi\\Controllers\\UserController.cs",
               "ToolTip": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Controllers\\UserController.cs",
               "RelativeToolTip": "TopStyleApi\\Controllers\\UserController.cs",
-              "ViewState": "AQIAAEsAAAAAAAAAAAAWwEIAAAA5AAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAQwEwAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-10T20:14:16.105Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "OrderController.cs",
-              "DocumentMoniker": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Controllers\\OrderController.cs",
-              "RelativeDocumentMoniker": "TopStyleApi\\Controllers\\OrderController.cs",
-              "ToolTip": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Controllers\\OrderController.cs",
-              "RelativeToolTip": "TopStyleApi\\Controllers\\OrderController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "DocumentIndex": 7,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Core\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "TopStyleApi\\Core\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Core\\Services\\UserService.cs",
+              "RelativeToolTip": "TopStyleApi\\Core\\Services\\UserService.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAgwAsAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-13T16:13:56.648Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-11T23:15:48.951Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Core\\Services\\OrderService.cs",
+              "RelativeDocumentMoniker": "TopStyleApi\\Core\\Services\\OrderService.cs",
+              "ToolTip": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Core\\Services\\OrderService.cs",
+              "RelativeToolTip": "TopStyleApi\\Core\\Services\\OrderService.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACAAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T16:52:48.207Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Core\\Services\\ProductService.cs",
+              "RelativeDocumentMoniker": "TopStyleApi\\Core\\Services\\ProductService.cs",
+              "ToolTip": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Core\\Services\\ProductService.cs",
+              "RelativeToolTip": "TopStyleApi\\Core\\Services\\ProductService.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAswCkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T19:41:20.192Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "ProductController.cs",
               "DocumentMoniker": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "TopStyleApi\\Controllers\\ProductController.cs",
               "ToolTip": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Controllers\\ProductController.cs",
               "RelativeToolTip": "TopStyleApi\\Controllers\\ProductController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAADAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-11T20:12:17.132Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "OrderRepo.cs",
-              "DocumentMoniker": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Data\\Repos\\OrderRepo.cs",
-              "RelativeDocumentMoniker": "TopStyleApi\\Data\\Repos\\OrderRepo.cs",
-              "ToolTip": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Data\\Repos\\OrderRepo.cs",
-              "RelativeToolTip": "TopStyleApi\\Data\\Repos\\OrderRepo.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAJAAAA",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Program.cs",
+              "RelativeDocumentMoniker": "TopStyleApi\\Program.cs",
+              "ToolTip": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Program.cs",
+              "RelativeToolTip": "TopStyleApi\\Program.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAiwCYAAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-11T23:16:30.239Z",
+              "WhenOpened": "2024-04-10T19:54:48.792Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Core\\Services\\UserService.cs",
-              "RelativeDocumentMoniker": "TopStyleApi\\Core\\Services\\UserService.cs",
-              "ToolTip": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Core\\Services\\UserService.cs",
-              "RelativeToolTip": "TopStyleApi\\Core\\Services\\UserService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACwAAAAHAAAA",
+              "DocumentIndex": 3,
+              "Title": "JwtTokenService.cs",
+              "DocumentMoniker": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Domain\\Authentication\\Services\\JwtTokenService.cs",
+              "RelativeDocumentMoniker": "TopStyleApi\\Domain\\Authentication\\Services\\JwtTokenService.cs",
+              "ToolTip": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Domain\\Authentication\\Services\\JwtTokenService.cs",
+              "RelativeToolTip": "TopStyleApi\\Domain\\Authentication\\Services\\JwtTokenService.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAACQAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-11T23:15:48.951Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "UserRepo.cs",
-              "DocumentMoniker": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Data\\Repos\\UserRepo.cs",
-              "RelativeDocumentMoniker": "TopStyleApi\\Data\\Repos\\UserRepo.cs",
-              "ToolTip": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Data\\Repos\\UserRepo.cs",
-              "RelativeToolTip": "TopStyleApi\\Data\\Repos\\UserRepo.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADcAAABZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-10T20:45:38Z",
+              "WhenOpened": "2024-04-15T10:55:51.899Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "TopStyleContext.cs",
-              "DocumentMoniker": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Data\\TopStyleContext.cs",
-              "RelativeDocumentMoniker": "TopStyleApi\\Data\\TopStyleContext.cs",
-              "ToolTip": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Data\\TopStyleContext.cs",
-              "RelativeToolTip": "TopStyleApi\\Data\\TopStyleContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-11T20:28:01.15Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "IUserService.cs",
-              "DocumentMoniker": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Core\\Interfaces\\IUserService.cs",
-              "RelativeDocumentMoniker": "TopStyleApi\\Core\\Interfaces\\IUserService.cs",
-              "ToolTip": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Core\\Interfaces\\IUserService.cs",
-              "RelativeToolTip": "TopStyleApi\\Core\\Interfaces\\IUserService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-11T20:31:13.342Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "IUserRepo.cs",
-              "DocumentMoniker": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Data\\Interfaces\\IUserRepo.cs",
-              "RelativeDocumentMoniker": "TopStyleApi\\Data\\Interfaces\\IUserRepo.cs",
-              "ToolTip": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Data\\Interfaces\\IUserRepo.cs",
-              "RelativeToolTip": "TopStyleApi\\Data\\Interfaces\\IUserRepo.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-11T19:39:51.714Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\appsettings.json",
-              "RelativeDocumentMoniker": "TopStyleApi\\appsettings.json",
-              "ToolTip": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\appsettings.json",
-              "RelativeToolTip": "TopStyleApi\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-04-11T11:08:41.758Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "IOrderService.cs",
-              "DocumentMoniker": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Core\\Interfaces\\IOrderService.cs",
-              "RelativeDocumentMoniker": "TopStyleApi\\Core\\Interfaces\\IOrderService.cs",
-              "ToolTip": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Core\\Interfaces\\IOrderService.cs",
-              "RelativeToolTip": "TopStyleApi\\Core\\Interfaces\\IOrderService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-12T16:52:59.42Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
               "Title": "Order.cs",
               "DocumentMoniker": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Domain\\Entities\\Order.cs",
               "RelativeDocumentMoniker": "TopStyleApi\\Domain\\Entities\\Order.cs",
               "ToolTip": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Domain\\Entities\\Order.cs",
               "RelativeToolTip": "TopStyleApi\\Domain\\Entities\\Order.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAABSAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-11T21:50:16.68Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-11T21:50:16.68Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "CategoryProfile.cs",
-              "DocumentMoniker": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Domain\\Profiles\\CategoryProfile.cs",
-              "RelativeDocumentMoniker": "TopStyleApi\\Domain\\Profiles\\CategoryProfile.cs",
-              "ToolTip": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Domain\\Profiles\\CategoryProfile.cs",
-              "RelativeToolTip": "TopStyleApi\\Domain\\Profiles\\CategoryProfile.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAvAAAA",
+              "DocumentIndex": 12,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Domain\\Entities\\Category.cs",
+              "RelativeDocumentMoniker": "TopStyleApi\\Domain\\Entities\\Category.cs",
+              "ToolTip": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Domain\\Entities\\Category.cs",
+              "RelativeToolTip": "TopStyleApi\\Domain\\Entities\\Category.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-11T11:04:37.158Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-11T21:50:15.401Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "OrderItemProfile.cs",
-              "DocumentMoniker": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Domain\\Profiles\\OrderItemProfile.cs",
-              "RelativeDocumentMoniker": "TopStyleApi\\Domain\\Profiles\\OrderItemProfile.cs",
-              "ToolTip": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Domain\\Profiles\\OrderItemProfile.cs",
-              "RelativeToolTip": "TopStyleApi\\Domain\\Profiles\\OrderItemProfile.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA0AAAA",
+              "DocumentIndex": 9,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Domain\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "TopStyleApi\\Domain\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Domain\\Entities\\User.cs",
+              "RelativeToolTip": "TopStyleApi\\Domain\\Entities\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-13T16:23:03.253Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-12T10:43:29.872Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\tonyn\\AppData\\Local\\Temp\\.vsdbgsrc\\f1fd8704b51f6534a4a47457b86ebbf3945ebd8a5ca479e385d835ab36b7b00a\\Program.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\f1fd8704b51f6534a4a47457b86ebbf3945ebd8a5ca479e385d835ab36b7b00a\\Program.cs",
-              "ToolTip": "C:\\Users\\tonyn\\AppData\\Local\\Temp\\.vsdbgsrc\\f1fd8704b51f6534a4a47457b86ebbf3945ebd8a5ca479e385d835ab36b7b00a\\Program.cs [Read Only]",
-              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\f1fd8704b51f6534a4a47457b86ebbf3945ebd8a5ca479e385d835ab36b7b00a\\Program.cs [Read Only]",
-              "ViewState": "AQIAAD4AAAAAAAAAAAAWwFYAAAABAAAA",
+              "DocumentIndex": 14,
+              "Title": "TopStyleContext.cs",
+              "DocumentMoniker": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Data\\TopStyleContext.cs",
+              "RelativeDocumentMoniker": "TopStyleApi\\Data\\TopStyleContext.cs",
+              "ToolTip": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Data\\TopStyleContext.cs",
+              "RelativeToolTip": "TopStyleApi\\Data\\TopStyleContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-14T19:21:53.365Z",
-              "EditorCaption": " [Read Only]"
+              "WhenOpened": "2024-04-11T20:28:01.15Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 15,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Domain\\Identity\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "TopStyleApi\\Domain\\Identity\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Domain\\Identity\\ApplicationUser.cs",
+              "RelativeToolTip": "TopStyleApi\\Domain\\Identity\\ApplicationUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T11:25:01.793Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "OrderProfile.cs",
               "DocumentMoniker": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Domain\\Profiles\\OrderProfile.cs",
               "RelativeDocumentMoniker": "TopStyleApi\\Domain\\Profiles\\OrderProfile.cs",
@@ -491,285 +439,107 @@
               "RelativeToolTip": "TopStyleApi\\Domain\\Profiles\\OrderProfile.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-12T16:54:29.526Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-12T16:54:29.526Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "OrderItem.cs",
-              "DocumentMoniker": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Domain\\Entities\\OrderItem.cs",
-              "RelativeDocumentMoniker": "TopStyleApi\\Domain\\Entities\\OrderItem.cs",
-              "ToolTip": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Domain\\Entities\\OrderItem.cs",
-              "RelativeToolTip": "TopStyleApi\\Domain\\Entities\\OrderItem.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAApAAAA",
+              "DocumentIndex": 19,
+              "Title": "CategoryProfile.cs",
+              "DocumentMoniker": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Domain\\Profiles\\CategoryProfile.cs",
+              "RelativeDocumentMoniker": "TopStyleApi\\Domain\\Profiles\\CategoryProfile.cs",
+              "ToolTip": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Domain\\Profiles\\CategoryProfile.cs",
+              "RelativeToolTip": "TopStyleApi\\Domain\\Profiles\\CategoryProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-11T22:58:53.069Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-11T11:04:37.158Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Domain\\Entities\\Product.cs",
-              "RelativeDocumentMoniker": "TopStyleApi\\Domain\\Entities\\Product.cs",
-              "ToolTip": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Domain\\Entities\\Product.cs",
-              "RelativeToolTip": "TopStyleApi\\Domain\\Entities\\Product.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "DocumentIndex": 18,
+              "Title": "ProductProfile.cs",
+              "DocumentMoniker": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Domain\\Profiles\\ProductProfile.cs",
+              "RelativeDocumentMoniker": "TopStyleApi\\Domain\\Profiles\\ProductProfile.cs",
+              "ToolTip": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Domain\\Profiles\\ProductProfile.cs",
+              "RelativeToolTip": "TopStyleApi\\Domain\\Profiles\\ProductProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-11T11:04:47.293Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-11T11:07:06.153Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "Category.cs",
-              "DocumentMoniker": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Domain\\Entities\\Category.cs",
-              "RelativeDocumentMoniker": "TopStyleApi\\Domain\\Entities\\Category.cs",
-              "ToolTip": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Domain\\Entities\\Category.cs",
-              "RelativeToolTip": "TopStyleApi\\Domain\\Entities\\Category.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-11T21:50:15.401Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "20240414175527_TopStyle.cs",
-              "DocumentMoniker": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Migrations\\20240414175527_TopStyle.cs",
-              "RelativeDocumentMoniker": "TopStyleApi\\Migrations\\20240414175527_TopStyle.cs",
-              "ToolTip": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Migrations\\20240414175527_TopStyle.cs",
-              "RelativeToolTip": "TopStyleApi\\Migrations\\20240414175527_TopStyle.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-14T17:55:28.001Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "IOrderItemRepo.cs",
-              "DocumentMoniker": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Data\\Interfaces\\IOrderItemRepo.cs",
-              "RelativeDocumentMoniker": "TopStyleApi\\Data\\Interfaces\\IOrderItemRepo.cs",
-              "ToolTip": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Data\\Interfaces\\IOrderItemRepo.cs",
-              "RelativeToolTip": "TopStyleApi\\Data\\Interfaces\\IOrderItemRepo.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-11T23:43:03.365Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "OrderItemRepo.cs",
-              "DocumentMoniker": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Data\\Repos\\OrderItemRepo.cs",
-              "RelativeDocumentMoniker": "TopStyleApi\\Data\\Repos\\OrderItemRepo.cs",
-              "ToolTip": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Data\\Repos\\OrderItemRepo.cs",
-              "RelativeToolTip": "TopStyleApi\\Data\\Repos\\OrderItemRepo.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-11T23:42:30.306Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "AddOrderItemDTO.cs",
-              "DocumentMoniker": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Domain\\DTO\\AddOrderItemDTO.cs",
-              "RelativeDocumentMoniker": "TopStyleApi\\Domain\\DTO\\AddOrderItemDTO.cs",
-              "ToolTip": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Domain\\DTO\\AddOrderItemDTO.cs",
-              "RelativeToolTip": "TopStyleApi\\Domain\\DTO\\AddOrderItemDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-13T16:20:54.116Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 20,
               "Title": "UserProfile.cs",
               "DocumentMoniker": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Domain\\Profiles\\UserProfile.cs",
               "RelativeDocumentMoniker": "TopStyleApi\\Domain\\Profiles\\UserProfile.cs",
               "ToolTip": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Domain\\Profiles\\UserProfile.cs",
               "RelativeToolTip": "TopStyleApi\\Domain\\Profiles\\UserProfile.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAgAAAAPAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-11T11:05:06.378Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-11T11:05:06.378Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Domain\\Entities\\User.cs",
-              "RelativeDocumentMoniker": "TopStyleApi\\Domain\\Entities\\User.cs",
-              "ToolTip": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Domain\\Entities\\User.cs",
-              "RelativeToolTip": "TopStyleApi\\Domain\\Entities\\User.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-12T10:43:29.872Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "20240414172559_TopStyleDB.cs",
-              "DocumentMoniker": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Migrations\\20240414172559_TopStyleDB.cs",
-              "RelativeDocumentMoniker": "TopStyleApi\\Migrations\\20240414172559_TopStyleDB.cs",
-              "ToolTip": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Migrations\\20240414172559_TopStyleDB.cs",
-              "RelativeToolTip": "TopStyleApi\\Migrations\\20240414172559_TopStyleDB.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-14T17:25:59.859Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "AddOrderDTO.cs",
-              "DocumentMoniker": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Domain\\DTO\\AddOrderDTO.cs",
-              "RelativeDocumentMoniker": "TopStyleApi\\Domain\\DTO\\AddOrderDTO.cs",
-              "ToolTip": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Domain\\DTO\\AddOrderDTO.cs",
-              "RelativeToolTip": "TopStyleApi\\Domain\\DTO\\AddOrderDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-12T16:53:40.467Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "ProductRepo.cs",
-              "DocumentMoniker": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Data\\Repos\\ProductRepo.cs",
-              "RelativeDocumentMoniker": "TopStyleApi\\Data\\Repos\\ProductRepo.cs",
-              "ToolTip": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Data\\Repos\\ProductRepo.cs",
-              "RelativeToolTip": "TopStyleApi\\Data\\Repos\\ProductRepo.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-11T11:22:39.144Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 21,
               "Title": "UserDTO.cs",
               "DocumentMoniker": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Domain\\DTO\\UserDTO.cs",
               "RelativeDocumentMoniker": "TopStyleApi\\Domain\\DTO\\UserDTO.cs",
               "ToolTip": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Domain\\DTO\\UserDTO.cs",
               "RelativeToolTip": "TopStyleApi\\Domain\\DTO\\UserDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAhAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-11T11:05:25.549Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-11T11:05:25.549Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "IProductService.cs",
-              "DocumentMoniker": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Core\\Interfaces\\IProductService.cs",
-              "RelativeDocumentMoniker": "TopStyleApi\\Core\\Interfaces\\IProductService.cs",
-              "ToolTip": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Core\\Interfaces\\IProductService.cs",
-              "RelativeToolTip": "TopStyleApi\\Core\\Interfaces\\IProductService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA7AAAA",
+              "DocumentIndex": 22,
+              "Title": "UserRepo.cs",
+              "DocumentMoniker": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Data\\Repos\\UserRepo.cs",
+              "RelativeDocumentMoniker": "TopStyleApi\\Data\\Repos\\UserRepo.cs",
+              "ToolTip": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Data\\Repos\\UserRepo.cs",
+              "RelativeToolTip": "TopStyleApi\\Data\\Repos\\UserRepo.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAlwDAAAAA8AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-11T19:40:36.965Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-10T20:45:38Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "IProductRepo.cs",
-              "DocumentMoniker": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Data\\Interfaces\\IProductRepo.cs",
-              "RelativeDocumentMoniker": "TopStyleApi\\Data\\Interfaces\\IProductRepo.cs",
-              "ToolTip": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Data\\Interfaces\\IProductRepo.cs",
-              "RelativeToolTip": "TopStyleApi\\Data\\Interfaces\\IProductRepo.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAyAAAA",
+              "DocumentIndex": 17,
+              "Title": "IJwtTokenService.cs",
+              "DocumentMoniker": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Domain\\Authentication\\Interface\\IJwtTokenService.cs",
+              "RelativeDocumentMoniker": "TopStyleApi\\Domain\\Authentication\\Interface\\IJwtTokenService.cs",
+              "ToolTip": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Domain\\Authentication\\Interface\\IJwtTokenService.cs",
+              "RelativeToolTip": "TopStyleApi\\Domain\\Authentication\\Interface\\IJwtTokenService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-11T11:15:01.632Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-12T11:44:33.949Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "IOrderRepo.cs",
-              "DocumentMoniker": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Data\\Interfaces\\IOrderRepo.cs",
-              "RelativeDocumentMoniker": "TopStyleApi\\Data\\Interfaces\\IOrderRepo.cs",
-              "ToolTip": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Data\\Interfaces\\IOrderRepo.cs",
-              "RelativeToolTip": "TopStyleApi\\Data\\Interfaces\\IOrderRepo.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA3AAAA",
+              "DocumentIndex": 23,
+              "Title": "AddOrderDTO.cs",
+              "DocumentMoniker": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Domain\\DTO\\AddOrderDTO.cs",
+              "RelativeDocumentMoniker": "TopStyleApi\\Domain\\DTO\\AddOrderDTO.cs",
+              "ToolTip": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Domain\\DTO\\AddOrderDTO.cs",
+              "RelativeToolTip": "TopStyleApi\\Domain\\DTO\\AddOrderDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-11T23:16:20.997Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-12T16:53:40.467Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "ICategoryRepo.cs",
-              "DocumentMoniker": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Data\\Interfaces\\ICategoryRepo.cs",
-              "RelativeDocumentMoniker": "TopStyleApi\\Data\\Interfaces\\ICategoryRepo.cs",
-              "ToolTip": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Data\\Interfaces\\ICategoryRepo.cs",
-              "RelativeToolTip": "TopStyleApi\\Data\\Interfaces\\ICategoryRepo.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 24,
+              "Title": "AddOrderItemDTO.cs",
+              "DocumentMoniker": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Domain\\DTO\\AddOrderItemDTO.cs",
+              "RelativeDocumentMoniker": "TopStyleApi\\Domain\\DTO\\AddOrderItemDTO.cs",
+              "ToolTip": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Domain\\DTO\\AddOrderItemDTO.cs",
+              "RelativeToolTip": "TopStyleApi\\Domain\\DTO\\AddOrderItemDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-11T23:16:34.495Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-13T16:20:54.116Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "CategoryRepo.cs",
-              "DocumentMoniker": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Data\\Repos\\CategoryRepo.cs",
-              "RelativeDocumentMoniker": "TopStyleApi\\Data\\Repos\\CategoryRepo.cs",
-              "ToolTip": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Data\\Repos\\CategoryRepo.cs",
-              "RelativeToolTip": "TopStyleApi\\Data\\Repos\\CategoryRepo.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-10T20:45:36.701Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "20240413170357_TopStyleDB.cs",
-              "DocumentMoniker": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Migrations\\20240413170357_TopStyleDB.cs",
-              "RelativeDocumentMoniker": "TopStyleApi\\Migrations\\20240413170357_TopStyleDB.cs",
-              "ToolTip": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Migrations\\20240413170357_TopStyleDB.cs",
-              "RelativeToolTip": "TopStyleApi\\Migrations\\20240413170357_TopStyleDB.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-13T17:03:57.338Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "20240413163557_TopStyle.cs",
-              "DocumentMoniker": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Migrations\\20240413163557_TopStyle.cs",
-              "RelativeDocumentMoniker": "TopStyleApi\\Migrations\\20240413163557_TopStyle.cs",
-              "ToolTip": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Migrations\\20240413163557_TopStyle.cs",
-              "RelativeToolTip": "TopStyleApi\\Migrations\\20240413163557_TopStyle.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-13T16:35:57.477Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "ProductDTO.cs",
-              "DocumentMoniker": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Domain\\DTO\\ProductDTO.cs",
-              "RelativeDocumentMoniker": "TopStyleApi\\Domain\\DTO\\ProductDTO.cs",
-              "ToolTip": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Domain\\DTO\\ProductDTO.cs",
-              "RelativeToolTip": "TopStyleApi\\Domain\\DTO\\ProductDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-11T11:06:56.838Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 25,
               "Title": "CategoryDTO.cs",
               "DocumentMoniker": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Domain\\DTO\\CategoryDTO.cs",
               "RelativeDocumentMoniker": "TopStyleApi\\Domain\\DTO\\CategoryDTO.cs",
@@ -777,8 +547,343 @@
               "RelativeToolTip": "TopStyleApi\\Domain\\DTO\\CategoryDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-11T11:05:21.18Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-11T11:05:21.18Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "GetOrderBySearchDTO.cs",
+              "DocumentMoniker": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Domain\\DTO\\GetOrderBySearchDTO.cs",
+              "RelativeDocumentMoniker": "TopStyleApi\\Domain\\DTO\\GetOrderBySearchDTO.cs",
+              "ToolTip": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Domain\\DTO\\GetOrderBySearchDTO.cs",
+              "RelativeToolTip": "TopStyleApi\\Domain\\DTO\\GetOrderBySearchDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T17:59:15.265Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ProductDTO.cs",
+              "DocumentMoniker": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Domain\\DTO\\ProductDTO.cs",
+              "RelativeDocumentMoniker": "TopStyleApi\\Domain\\DTO\\ProductDTO.cs",
+              "ToolTip": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Domain\\DTO\\ProductDTO.cs",
+              "RelativeToolTip": "TopStyleApi\\Domain\\DTO\\ProductDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T11:06:56.838Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "CategoryRepo.cs",
+              "DocumentMoniker": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Data\\Repos\\CategoryRepo.cs",
+              "RelativeDocumentMoniker": "TopStyleApi\\Data\\Repos\\CategoryRepo.cs",
+              "ToolTip": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Data\\Repos\\CategoryRepo.cs",
+              "RelativeToolTip": "TopStyleApi\\Data\\Repos\\CategoryRepo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T20:45:36.701Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "OrderRepo.cs",
+              "DocumentMoniker": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Data\\Repos\\OrderRepo.cs",
+              "RelativeDocumentMoniker": "TopStyleApi\\Data\\Repos\\OrderRepo.cs",
+              "ToolTip": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Data\\Repos\\OrderRepo.cs",
+              "RelativeToolTip": "TopStyleApi\\Data\\Repos\\OrderRepo.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAADwvxIAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T23:16:30.239Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "OrderItemRepo.cs",
+              "DocumentMoniker": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Data\\Repos\\OrderItemRepo.cs",
+              "RelativeDocumentMoniker": "TopStyleApi\\Data\\Repos\\OrderItemRepo.cs",
+              "ToolTip": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Data\\Repos\\OrderItemRepo.cs",
+              "RelativeToolTip": "TopStyleApi\\Data\\Repos\\OrderItemRepo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T23:42:30.306Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "ProductRepo.cs",
+              "DocumentMoniker": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Data\\Repos\\ProductRepo.cs",
+              "RelativeDocumentMoniker": "TopStyleApi\\Data\\Repos\\ProductRepo.cs",
+              "ToolTip": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Data\\Repos\\ProductRepo.cs",
+              "RelativeToolTip": "TopStyleApi\\Data\\Repos\\ProductRepo.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAywCsAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T12:26:01.171Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "OrderItemProfile.cs",
+              "DocumentMoniker": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Domain\\Profiles\\OrderItemProfile.cs",
+              "RelativeDocumentMoniker": "TopStyleApi\\Domain\\Profiles\\OrderItemProfile.cs",
+              "ToolTip": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Domain\\Profiles\\OrderItemProfile.cs",
+              "RelativeToolTip": "TopStyleApi\\Domain\\Profiles\\OrderItemProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-13T16:23:03.253Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "20240415205159_TopStyle.cs",
+              "DocumentMoniker": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Migrations\\20240415205159_TopStyle.cs",
+              "RelativeDocumentMoniker": "TopStyleApi\\Migrations\\20240415205159_TopStyle.cs",
+              "ToolTip": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Migrations\\20240415205159_TopStyle.cs",
+              "RelativeToolTip": "TopStyleApi\\Migrations\\20240415205159_TopStyle.cs",
+              "ViewState": "AQIAAN8AAAAAAAAAAAAqwOwAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T20:51:59.186Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "20240415211153_TopStyle.cs",
+              "DocumentMoniker": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Migrations\\20240415211153_TopStyle.cs",
+              "RelativeDocumentMoniker": "TopStyleApi\\Migrations\\20240415211153_TopStyle.cs",
+              "ToolTip": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Migrations\\20240415211153_TopStyle.cs",
+              "RelativeToolTip": "TopStyleApi\\Migrations\\20240415211153_TopStyle.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T21:11:53.12Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "20240415210207_TopStyle.cs",
+              "DocumentMoniker": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Migrations\\20240415210207_TopStyle.cs",
+              "RelativeDocumentMoniker": "TopStyleApi\\Migrations\\20240415210207_TopStyle.cs",
+              "ToolTip": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Migrations\\20240415210207_TopStyle.cs",
+              "RelativeToolTip": "TopStyleApi\\Migrations\\20240415210207_TopStyle.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T21:02:07.201Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "20240415210831_TopStyle.cs",
+              "DocumentMoniker": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Migrations\\20240415210831_TopStyle.cs",
+              "RelativeDocumentMoniker": "TopStyleApi\\Migrations\\20240415210831_TopStyle.cs",
+              "ToolTip": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Migrations\\20240415210831_TopStyle.cs",
+              "RelativeToolTip": "TopStyleApi\\Migrations\\20240415210831_TopStyle.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T21:08:31.482Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "20240415210944_TopStyle.cs",
+              "DocumentMoniker": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Migrations\\20240415210944_TopStyle.cs",
+              "RelativeDocumentMoniker": "TopStyleApi\\Migrations\\20240415210944_TopStyle.cs",
+              "ToolTip": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Migrations\\20240415210944_TopStyle.cs",
+              "RelativeToolTip": "TopStyleApi\\Migrations\\20240415210944_TopStyle.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T21:09:44.148Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "IUserRepo.cs",
+              "DocumentMoniker": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Data\\Interfaces\\IUserRepo.cs",
+              "RelativeDocumentMoniker": "TopStyleApi\\Data\\Interfaces\\IUserRepo.cs",
+              "ToolTip": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Data\\Interfaces\\IUserRepo.cs",
+              "RelativeToolTip": "TopStyleApi\\Data\\Interfaces\\IUserRepo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T19:39:51.714Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "IOrderRepo.cs",
+              "DocumentMoniker": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Data\\Interfaces\\IOrderRepo.cs",
+              "RelativeDocumentMoniker": "TopStyleApi\\Data\\Interfaces\\IOrderRepo.cs",
+              "ToolTip": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Data\\Interfaces\\IOrderRepo.cs",
+              "RelativeToolTip": "TopStyleApi\\Data\\Interfaces\\IOrderRepo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T23:16:20.997Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "IProductService.cs",
+              "DocumentMoniker": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Core\\Interfaces\\IProductService.cs",
+              "RelativeDocumentMoniker": "TopStyleApi\\Core\\Interfaces\\IProductService.cs",
+              "ToolTip": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Core\\Interfaces\\IProductService.cs",
+              "RelativeToolTip": "TopStyleApi\\Core\\Interfaces\\IProductService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T19:40:36.965Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "IProductRepo.cs",
+              "DocumentMoniker": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Data\\Interfaces\\IProductRepo.cs",
+              "RelativeDocumentMoniker": "TopStyleApi\\Data\\Interfaces\\IProductRepo.cs",
+              "ToolTip": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Data\\Interfaces\\IProductRepo.cs",
+              "RelativeToolTip": "TopStyleApi\\Data\\Interfaces\\IProductRepo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T11:15:01.632Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Core\\Interfaces\\IUserService.cs",
+              "RelativeDocumentMoniker": "TopStyleApi\\Core\\Interfaces\\IUserService.cs",
+              "ToolTip": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Core\\Interfaces\\IUserService.cs",
+              "RelativeToolTip": "TopStyleApi\\Core\\Interfaces\\IUserService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T20:31:13.342Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "20240415184032_TopStyle.cs",
+              "DocumentMoniker": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Migrations\\20240415184032_TopStyle.cs",
+              "RelativeDocumentMoniker": "TopStyleApi\\Migrations\\20240415184032_TopStyle.cs",
+              "ToolTip": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Migrations\\20240415184032_TopStyle.cs",
+              "RelativeToolTip": "TopStyleApi\\Migrations\\20240415184032_TopStyle.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T18:40:32.787Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "20240415183620_TopTOP.cs",
+              "DocumentMoniker": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Migrations\\20240415183620_TopTOP.cs",
+              "RelativeDocumentMoniker": "TopStyleApi\\Migrations\\20240415183620_TopTOP.cs",
+              "ToolTip": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Migrations\\20240415183620_TopTOP.cs",
+              "RelativeToolTip": "TopStyleApi\\Migrations\\20240415183620_TopTOP.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T18:36:21.005Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "IOrderService.cs",
+              "DocumentMoniker": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Core\\Interfaces\\IOrderService.cs",
+              "RelativeDocumentMoniker": "TopStyleApi\\Core\\Interfaces\\IOrderService.cs",
+              "ToolTip": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Core\\Interfaces\\IOrderService.cs",
+              "RelativeToolTip": "TopStyleApi\\Core\\Interfaces\\IOrderService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T16:52:59.42Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "IOrderItemRepo.cs",
+              "DocumentMoniker": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Data\\Interfaces\\IOrderItemRepo.cs",
+              "RelativeDocumentMoniker": "TopStyleApi\\Data\\Interfaces\\IOrderItemRepo.cs",
+              "ToolTip": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Data\\Interfaces\\IOrderItemRepo.cs",
+              "RelativeToolTip": "TopStyleApi\\Data\\Interfaces\\IOrderItemRepo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T23:43:03.365Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "20240415182457_TopStyle2.cs",
+              "DocumentMoniker": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Migrations\\20240415182457_TopStyle2.cs",
+              "RelativeDocumentMoniker": "TopStyleApi\\Migrations\\20240415182457_TopStyle2.cs",
+              "ToolTip": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Migrations\\20240415182457_TopStyle2.cs",
+              "RelativeToolTip": "TopStyleApi\\Migrations\\20240415182457_TopStyle2.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T18:24:57.655Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "20240415174710_TopStyleDB.cs",
+              "DocumentMoniker": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Migrations\\20240415174710_TopStyleDB.cs",
+              "RelativeDocumentMoniker": "TopStyleApi\\Migrations\\20240415174710_TopStyleDB.cs",
+              "ToolTip": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Migrations\\20240415174710_TopStyleDB.cs",
+              "RelativeToolTip": "TopStyleApi\\Migrations\\20240415174710_TopStyleDB.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T17:47:10.294Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\tonyn\\AppData\\Local\\Temp\\.vsdbgsrc\\f1fd8704b51f6534a4a47457b86ebbf3945ebd8a5ca479e385d835ab36b7b00a\\Program.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\f1fd8704b51f6534a4a47457b86ebbf3945ebd8a5ca479e385d835ab36b7b00a\\Program.cs",
+              "ToolTip": "C:\\Users\\tonyn\\AppData\\Local\\Temp\\.vsdbgsrc\\f1fd8704b51f6534a4a47457b86ebbf3945ebd8a5ca479e385d835ab36b7b00a\\Program.cs [Read Only]",
+              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\f1fd8704b51f6534a4a47457b86ebbf3945ebd8a5ca479e385d835ab36b7b00a\\Program.cs [Read Only]",
+              "ViewState": "AQIAAD4AAAAAAAAAAAAWwFYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T19:21:53.365Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "20240414172559_TopStyleDB.cs",
+              "DocumentMoniker": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Migrations\\20240414172559_TopStyleDB.cs",
+              "RelativeDocumentMoniker": "TopStyleApi\\Migrations\\20240414172559_TopStyleDB.cs",
+              "ToolTip": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Migrations\\20240414172559_TopStyleDB.cs",
+              "RelativeToolTip": "TopStyleApi\\Migrations\\20240414172559_TopStyleDB.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T17:25:59.859Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "ICategoryRepo.cs",
+              "DocumentMoniker": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Data\\Interfaces\\ICategoryRepo.cs",
+              "RelativeDocumentMoniker": "TopStyleApi\\Data\\Interfaces\\ICategoryRepo.cs",
+              "ToolTip": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Data\\Interfaces\\ICategoryRepo.cs",
+              "RelativeToolTip": "TopStyleApi\\Data\\Interfaces\\ICategoryRepo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T23:16:34.495Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "20240413170357_TopStyleDB.cs",
+              "DocumentMoniker": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Migrations\\20240413170357_TopStyleDB.cs",
+              "RelativeDocumentMoniker": "TopStyleApi\\Migrations\\20240413170357_TopStyleDB.cs",
+              "ToolTip": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Migrations\\20240413170357_TopStyleDB.cs",
+              "RelativeToolTip": "TopStyleApi\\Migrations\\20240413170357_TopStyleDB.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-13T17:03:57.338Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "20240413163557_TopStyle.cs",
+              "DocumentMoniker": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Migrations\\20240413163557_TopStyle.cs",
+              "RelativeDocumentMoniker": "TopStyleApi\\Migrations\\20240413163557_TopStyle.cs",
+              "ToolTip": "C:\\Users\\tonyn\\OneDrive\\Dokument\\TopStyleApi\\TopStyleApi\\Migrations\\20240413163557_TopStyle.cs",
+              "RelativeToolTip": "TopStyleApi\\Migrations\\20240413163557_TopStyle.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-13T16:35:57.477Z"
             }
           ]
         }

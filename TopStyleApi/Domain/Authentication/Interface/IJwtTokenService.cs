@@ -10,6 +10,6 @@ namespace TopStyle.Domain.Auth.Interface
 {
     public interface IJwtTokenService
     {
-        public string CreateToken(UserDTO user);
+        public string CreateToken( string userId);
     }
 }

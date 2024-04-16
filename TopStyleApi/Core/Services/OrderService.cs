@@ -20,37 +20,29 @@ namespace TopStyleApi.Core.Services
             _productService = productService;
         }
 
-        public async Task AddOrderAsync(AddOrderDTO addOrderDTO)
+        public async Task AddOrderAsync(AddOrderDTO addOrderDTO, string userId)
         {
-            var order = new Order
+            Order order = new Order
             {
-                UserId = addOrderDTO.UserId,
-                // Map DTOs to entities
+                UserId = userId,
                 Items = addOrderDTO.Items.Select(item => new OrderItem
                 {
                     ProductId = item.ProductId,
-                    Quantity = item.Quantity
+                    Quantity = item.Quantity,
                 }).ToList()
             };
 
-            // Calculate total price
             int? totalPrice = await CalculateTotalOrderPrice(addOrderDTO);
 
             if (totalPrice.HasValue)
             {
-                // Set total price
                 order.TotalPrice = totalPrice.Value;
 
-                // Add order to repository
                 await _orderRepo.AddOrderAsync(order);
-            }
-            else
-            {
-                // Handle scenario where total price calculation failed
             }
         }
 
-        public async Task<int?> CalculateTotalOrderPrice(AddOrderDTO orderDTO)
+        public async Task<int> CalculateTotalOrderPrice(AddOrderDTO orderDTO)
         {
             int totalPrice = 0;
 
@@ -63,7 +55,6 @@ namespace TopStyleApi.Core.Services
                 }
                 else
                 {
-                    // Handle scenario where product price is not available
                 }
             }
 

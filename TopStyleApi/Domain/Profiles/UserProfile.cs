@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using TopStyle.Domain.DTO;
 using TopStyle.Domain.Entities;
+using TopStyle.Domain.Identity;
 
 namespace TopStyle.Domain.Profiles
 {
@@ -8,8 +9,8 @@ namespace TopStyle.Domain.Profiles
     {
         public UserProfile()
         {
-            CreateMap<User, UserDTO>();
-            CreateMap<UserDTO, User>();
+            CreateMap<ApplicationUser, UserDTO>();
+            CreateMap<UserDTO, ApplicationUser>();
         }
     }
 }

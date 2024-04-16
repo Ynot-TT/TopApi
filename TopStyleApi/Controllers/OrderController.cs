@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using System.Security.Claims;
 using TopStyle.Domain.Entities;
 using TopStyleApi.Core.Interfaces;
@@ -17,19 +18,34 @@ namespace TopStyleApi.Controllers
     public class OrderController : ControllerBase
     {
         private readonly IOrderService _orderService;
-        private readonly IMapper _mapper;
 
-        public OrderController(IOrderService orderService, IMapper mapper)
+        public OrderController(IOrderService orderService)
         {
             _orderService = orderService;
-            _mapper = mapper;
         }
 
         [HttpPost]
-        public async Task<ActionResult<Order>> AddOrder(AddOrderDTO addOrderDTO)
-        {
-            await _orderService.AddOrderAsync(addOrderDTO);
-            return Ok("order created");
-        }
+          public async Task<ActionResult> AddOrder(AddOrderDTO addOrderDTO)
+          {
+                var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+
+                if (string.IsNullOrEmpty(userId))
+                {
+                    return Unauthorized("User ID is missing from the token.");
+                }
+                try
+                {
+                    await _orderService.AddOrderAsync(addOrderDTO, userId);
+                    return Ok("Order created successfully.");
+                }
+                catch (InvalidOperationException ex)
+                {
+                    return BadRequest($"Invalid data: {ex.Message}");
+                }
+                catch (Exception ex)
+                {
+                    return StatusCode(500, $"An error occurred while processing the request: {ex.Message}");
+                }
+          }
     }
 }

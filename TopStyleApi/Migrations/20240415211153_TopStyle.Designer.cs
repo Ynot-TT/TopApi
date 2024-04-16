@@ -12,7 +12,7 @@ using TopStyle.Data;
 namespace TopStyleApi.Migrations
 {
     [DbContext(typeof(TopStyleContext))]
-    [Migration("20240414175527_TopStyle")]
+    [Migration("20240415211153_TopStyle")]
     partial class TopStyle
     {
         /// <inheritdoc />
@@ -186,8 +186,9 @@ namespace TopStyleApi.Migrations
                     b.Property<int>("TotalPrice")
                         .HasColumnType("int");
 
-                    b.Property<int>("UserId")
-                        .HasColumnType("int");
+                    b.Property<string>("UserId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
 
                     b.HasKey("OrderId");
 
@@ -223,29 +224,6 @@ namespace TopStyleApi.Migrations
                     b.HasIndex("CategoryId");
 
                     b.ToTable("Products");
-                });
-
-            modelBuilder.Entity("TopStyle.Domain.Entities.User", b =>
-                {
-                    b.Property<int>("UserId")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("UserId"));
-
-                    b.Property<string>("Password")
-                        .IsRequired()
-                        .HasMaxLength(50)
-                        .HasColumnType("nvarchar(50)");
-
-                    b.Property<string>("Username")
-                        .IsRequired()
-                        .HasMaxLength(50)
-                        .HasColumnType("nvarchar(50)");
-
-                    b.HasKey("UserId");
-
-                    b.ToTable("Users");
                 });
 
             modelBuilder.Entity("TopStyle.Domain.Identity.ApplicationUser", b =>
@@ -392,8 +370,8 @@ namespace TopStyleApi.Migrations
 
             modelBuilder.Entity("TopStyle.Domain.Entities.Order", b =>
                 {
-                    b.HasOne("TopStyle.Domain.Entities.User", "User")
-                        .WithMany("Orders")
+                    b.HasOne("TopStyle.Domain.Identity.ApplicationUser", "User")
+                        .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -439,11 +417,6 @@ namespace TopStyleApi.Migrations
             modelBuilder.Entity("TopStyle.Domain.Entities.Order", b =>
                 {
                     b.Navigation("Items");
-                });
-
-            modelBuilder.Entity("TopStyle.Domain.Entities.User", b =>
-                {
-                    b.Navigation("Orders");
                 });
 #pragma warning restore 612, 618
         }

@@ -9,6 +9,7 @@ using TopStyle.Domain.DTO;
 using TopStyle.Domain.Entities;
 using TopStyle.Domain.Identity;
 using System.Security.Claims;
+using Microsoft.EntityFrameworkCore;
 
 namespace TopStyle.Controllers
 {
@@ -16,13 +17,15 @@ namespace TopStyle.Controllers
     [ApiController]
     public class UserController : ControllerBase
     {
+        private readonly IMapper _mapper;
         private readonly IUserService _userService;
         private readonly UserManager<ApplicationUser> _userManager;
         private readonly SignInManager<ApplicationUser> _signInManager;
         private readonly IJwtTokenService _jwtTokenService;
 
-        public UserController(IUserService userService, UserManager<ApplicationUser> userManager, SignInManager<ApplicationUser> signInManager, IJwtTokenService jwtTokenService)
+        public UserController(IMapper mapper, IUserService userService, UserManager<ApplicationUser> userManager, SignInManager<ApplicationUser> signInManager, IJwtTokenService jwtTokenService)
         {
+            _mapper = mapper;
             _userService = userService;
             _userManager = userManager;
             _signInManager = signInManager;
@@ -31,116 +34,92 @@ namespace TopStyle.Controllers
 
         [HttpPost]
         [Route("/register")]
-        public async Task<ActionResult<User>> Register([FromBody] UserDTO user)
+        public async Task<IActionResult> Register( UserDTO userDTO)
         {
-            if (user == null)
+            if (userDTO == null)
             {
                 return BadRequest("Invalid user data");
             }
-            var userModel = new ApplicationUser
-            {
-                UserName = user.Username
 
-            };
-            var result = await _userManager.CreateAsync(userModel, user.Password);
+            var userExists = await _userManager.FindByNameAsync(userDTO.Username);
+            if (userExists != null)
+            {
+                return BadRequest("UserName already exists");
+            }
 
-            if (result.Succeeded)
+            var user = _mapper.Map<ApplicationUser>(userDTO);    
+            var result = await _userManager.CreateAsync(user, userDTO.Password);
+
+            if (!result.Succeeded)
             {
-                await _userService.AddUserAsync(user);
-                return Ok("User created");
+                var errors = result.Errors.Select(e => e.Description);
+                return BadRequest(new { Errors = errors });
             }
-            else
-            {
-                return BadRequest(result.Errors);
-            }
+            return Ok("User sucessfully registered");
         }
 
         [HttpPost]
         [Route("/login")]
-        public async Task<IActionResult> Login([FromBody] UserDTO user)
+        public async Task<IActionResult> Login([FromBody] UserDTO userDTO)
         {
-            var result = await _signInManager.PasswordSignInAsync(user.Username, user.Password, false, false);
+            var user = await _userManager.FindByNameAsync(userDTO.Username);
+            
 
-            string token = _jwtTokenService.CreateToken(user);
-            if (result.Succeeded)
-            {
-                return Ok($"Inloggad \nToken: {token}"); 
-            }
-            else
+            var result = await _signInManager.CheckPasswordSignInAsync(user!, userDTO.Password, lockoutOnFailure: true);
+            if(!result.Succeeded)
             {
                 return Unauthorized("Wrong username or password");
             }
+            var token =  _jwtTokenService.CreateToken(user!.Id);
+
+            return Ok($"Logged In \nToken: {token}");
+
         }
 
         [HttpGet]
         [Route("/api/all-users")]
         public async Task<ActionResult<UserDTO>> GetAllUsers()
         {
-            var users = await _userService.GetAllUsersAsync();
+            var users = await _userManager.Users.ToListAsync();
             return Ok(users);
         }
 
-        [HttpGet]
-        [Route("/api/user/{id}")]
-        public async Task<ActionResult<UserDTO>> GetUser(int id)
-        {
-            var user = await _userService.GetUserByIdAsync(id);
-            if (user == null)
-            {
-                return NotFound("User not found");
-            }
-            return Ok(user);
-        }
+        //[HttpGet]
+        //[Route("/api/user/{id}")]
+        //public async Task<ActionResult<UserDTO>> GetUser(string id)
+        //{
+        //    var user = await _userService.GetUserByIdAsync(id);
+        //    if (user == null)
+        //    {
+        //        return NotFound("User not found");
+        //    }
+        //    return Ok(user);
+        //}
 
-        [HttpPut]
-        [Route("/api/user/{id}")]
-        public async Task<ActionResult<User>> UpdateUser(int id, [FromBody] UserDTO userDTO)
-        {
-            if (id != userDTO.UserId)
-            {
-                return BadRequest("User ID mismatch.");
-            }
+        //[HttpPut]
+        //[Route("/api/user/{id}")]
+        //public async Task<ActionResult<User>> UpdateUser(int id, [FromBody] UserDTO userDTO)
+        //{
+        //    //if (id != userDTO.UserId)
+        //    //{
+        //    //    return BadRequest("User ID mismatch.");
+        //    //}
 
-            await _userService.UpdateUserAsync(userDTO);
+        //    //await _userService.UpdateUserAsync(userDTO);
 
-            if (userDTO == null)
-            {
-                return NotFound("User not found");
-            }
-            return Ok(userDTO);
-        }
+        //    //if (userDTO == null)
+        //    //{
+        //    //    return NotFound("User not found");
+        //    //}
+        //    return Ok(userDTO);
+        //}
 
-        [HttpDelete]
-        [Route("/api/user/{id}")]
-        public async Task<ActionResult> DeleteUser(int id)
-        {
-            await _userService.DeleteUserAsync(id);
-            return Ok("User deleted");
-        }
-
-        [HttpGet]
-        public async Task<ActionResult> GetLoggedInUsers()
-        {
-            var userIdClaim = HttpContext.User.FindFirst(ClaimTypes.NameIdentifier);
-            if (userIdClaim != null)
-            {
-                if (Guid.TryParse(userIdClaim.Value, out Guid userId))
-                {
-                    // User ID parsed successfully
-                    return Ok(new { UserID = userId });
-                }
-                else
-                {
-                    // Unable to parse user ID
-                    return BadRequest("User ID could not be parsed");
-                }
-            }
-            else
-            {
-                // User ID claim not found in token
-                return BadRequest("User ID claim not found in token");
-            }
-
-        }
+        //[HttpDelete]
+        //[Route("/api/user/{id}")]
+        //public async Task<ActionResult> DeleteUser(string id)
+        //{
+        //    await _userService.DeleteUserAsync(id);
+        //    return Ok("User deleted");
+        //}
     }
 }

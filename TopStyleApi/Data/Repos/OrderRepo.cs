@@ -14,20 +14,23 @@ namespace TopStyleApi.Data.Repos
             _context = context;
         }
 
+
+
         public async Task AddOrderAsync(Order order)
         {
-            await _context.Orders.AddAsync(order); 
+            await _context.Orders.AddAsync(order);
             _context.SaveChanges();
         }
 
-        public async Task DeleteOrderAsync(int orderId, int userId)
+        public async Task DeleteOrderAsync(int orderId, string userId)
         {
-            var orderToDelete = await _context.Orders.FindAsync(orderId);
-            if (orderToDelete != null && orderToDelete.UserId == userId)
-            {
-                _context.Orders.Remove(orderToDelete);
-                await _context.SaveChangesAsync();
-            }
+            //var orderToDelete = await _context.Orders.FindAsync(orderId);
+            //if (orderToDelete != null && orderToDelete.UserId == userId)
+            //{
+            //    _context.Orders.Remove(orderToDelete);
+            //    await _context.SaveChangesAsync();
+            //}
+
         }
 
         public async Task<IEnumerable<Order>> GetAllOrders()

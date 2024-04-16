@@ -1,9 +1,11 @@
 ﻿using AutoMapper;
+using Microsoft.AspNetCore.Identity;
 using TopStyle.Core.Interfaces;
 using TopStyle.Data.Interfaces;
 using TopStyle.Data.Repos;
 using TopStyle.Domain.DTO;
 using TopStyle.Domain.Entities;
+using TopStyle.Domain.Identity;
 
 namespace TopStyle.Core.Services
 {
@@ -11,43 +13,51 @@ namespace TopStyle.Core.Services
     {
         private readonly IUserRepo _repo;
         private readonly IMapper _mapper;
+        private readonly UserManager <ApplicationUser> _userManager;
 
-        public UserService(IUserRepo repo, IMapper mapper)
+        public UserService(IUserRepo repo, IMapper mapper, UserManager<ApplicationUser> userManager)
         {
             _repo = repo;
             _mapper = mapper;
+            _userManager = userManager;
         }
 
-        public async Task AddUserAsync(UserDTO userDTO)
+        public async Task AddUserAsync(ApplicationUser user, string password)
         {
-            var user = _mapper.Map<User>(userDTO);
-            await _repo.AddUserAsync(user);
-        }
-        public async Task DeleteUserAsync(int userId)
-        {
-            await _repo.DeleteUserAsync(userId);
+
+             await _userManager.CreateAsync(user, password);
         }
 
-        public async Task<IEnumerable<UserDTO>> GetAllUsersAsync()
-        {
-            var users = await _repo.GetAllUsersAsync();
-            return _mapper.Map<IEnumerable<UserDTO>>(users);
-        }
-        public async Task<UserDTO> GetUserByIdAsync(int userId)
-        {
-            var user = await _repo.GetUserByIdAsync(userId);
-            if (user == null)
-            {
-                return null;
-            }
-            return _mapper.Map<UserDTO>(user);
-        }
-       
+        
 
-        public async Task UpdateUserAsync(UserDTO userDTO)
+        public Task DeleteUserAsync(string userId)
         {
-            var userToUpdate = _mapper.Map<User>(userDTO);
-            await _repo.UpdateUserAsync(userToUpdate);
+            throw new NotImplementedException();
         }
+
+        
+        
+
+        public Task<ApplicationUser> GetUserByIdAsync(string userId)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task UpdateUserAsync(UserDTO userDTO)
+        {
+            throw new NotImplementedException();
+        }
+
+        Task<IEnumerable<ApplicationUser>> IUserService.GetAllUsersAsync()
+        {
+            throw new NotImplementedException();
+        }
+
+
+        //public async Task UpdateUserAsync(UserDTO userDTO)
+        //{
+        //    var userToUpdate = _mapper.Map<User>(userDTO);
+        //    await _repo.UpdateUserAsync(userToUpdate);
+        //}
     }
 }

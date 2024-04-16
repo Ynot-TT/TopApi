@@ -9,7 +9,7 @@ namespace TopStyleApi.Data.Interfaces
         Task<Order> GetOrderIByIdAsync(int orderId);
         Task AddOrderAsync(Order order);
         Task UpdateOrderAsync(Order order);
-        Task DeleteOrderAsync(int orderId, int userId);
+        Task DeleteOrderAsync(int orderId, string userId);
 
     }
 }

@@ -44,6 +44,7 @@ namespace TopStyleApi.Core.Services
         {
             var products = await _repo.GetProductByTitleAsync(title);
             return _mapper.Map<IEnumerable<ProductDTO>>(products);  
+            
         }
 
         public async Task<int?> GetProductPrice(int productId)
