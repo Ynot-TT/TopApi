@@ -12,9 +12,8 @@ namespace TopStyleApi.Domain.Profiles
             CreateMap<Order, AddOrderDTO>();
             CreateMap<AddOrderDTO, Order>();
 
-
-
-
+            CreateMap<Order, GetOrderDTO>();
+            CreateMap<GetOrderDTO, Order>();
         }
 
     }

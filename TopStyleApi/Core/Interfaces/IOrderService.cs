@@ -10,5 +10,6 @@ namespace TopStyleApi.Core.Interfaces
         Task AddOrderAsync(AddOrderDTO order, string userId);
         Task UpdateOrderAsync(AddOrderDTO order);
         Task DeleteOrderAsync(int orderId, int userId);
+        Task<IEnumerable<GetOrderDTO>> GetOrdersByUserIdAsync(string userId);
     }
 }

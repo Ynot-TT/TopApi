@@ -180,6 +180,9 @@ namespace TopStyleApi.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("OrderId"));
 
+                    b.Property<DateTime>("OrderDate")
+                        .HasColumnType("datetime2");
+
                     b.Property<int>("TotalPrice")
                         .HasColumnType("int");
 

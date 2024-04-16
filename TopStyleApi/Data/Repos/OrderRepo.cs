@@ -45,6 +45,17 @@ namespace TopStyleApi.Data.Repos
                 return product;
         }
 
+        public async Task<IEnumerable<Order>> GetOrdersByUserIdAsync(string userId)
+        {
+            var orders = await _context.Orders
+                .Include(o => o.Items)
+                    .ThenInclude(oi => oi.Product)  
+                .Where(o => o.UserId == userId)
+                .ToListAsync();
+
+            return orders;
+        }
+
         public async Task UpdateOrderAsync(Order order)
         {
             return;

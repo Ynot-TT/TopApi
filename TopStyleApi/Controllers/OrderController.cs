@@ -44,7 +44,7 @@ namespace TopStyleApi.Controllers
                 }
                 catch (Exception ex)
                 {
-                    return StatusCode(500, $"An error occurred while processing the request: {ex.Message}");
+                    return StatusCode(500, $"Request failed: {ex.Message}");
                 }
           }
     }

@@ -7,8 +7,6 @@ using TopStyle.Core.Services;
 using TopStyle.Data;
 using TopStyle.Data.Interfaces;
 using TopStyle.Data.Repos;
-using TopStyle.Domain.Auth.Authentication;
-using TopStyle.Domain.Auth.Interface;
 using TopStyle.Domain.Identity;
 using TopStyleApi.Core.Interfaces;
 using TopStyleApi.Core.Services;
@@ -18,6 +16,9 @@ using Microsoft.IdentityModel.Tokens;
 using System.Text;
 using Swashbuckle.AspNetCore.Filters;
 using System.Net;
+using TopStyleApi.Extensions;
+using TopStyle.Domain.Auth.Interface;
+using TopStyle.Domain.Auth.Authentication;
 
 namespace TopStyleApi
 {
@@ -25,8 +26,10 @@ namespace TopStyleApi
     {
         public static void Main(string[] args)
         {
-            //topstyle
-            //Admin123
+            //Azure database
+            //username:topstyle
+            //password:Admin123
+
             var builder = WebApplication.CreateBuilder(args);
             builder.Services.AddControllers();
             builder.Services.AddAutoMapper(typeof(Program).Assembly);
@@ -42,77 +45,28 @@ namespace TopStyleApi
             .AddEntityFrameworkStores<TopStyleContext>()
             .AddDefaultTokenProviders();
 
-
-
-            builder.Services.AddSwaggerGen( 
-            c =>
-            {   
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "My API", Version = "v1" });
-                c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
-                {
-                     Description = "Standard Authorization header using the Bearer scheme (\"bearer {token}\")",
-                    Name = "Authorization",
-                    In = ParameterLocation.Header,
-                    Type = SecuritySchemeType.ApiKey,
-                    Scheme = "Bearer"
-                });
-                c.AddSecurityRequirement(new OpenApiSecurityRequirement {
-            {
-            new OpenApiSecurityScheme
-            {
-                Reference = new OpenApiReference
-                {
-                    Type = ReferenceType.SecurityScheme,
-                    Id = "Bearer"
-                },
-                Scheme = "oauth2",
-                Name = "Bearer",
-                In = ParameterLocation.Header,
-            },
-            new List<string>()
-                            }
-                        });
-                        });
+            //Swagger
+            builder.Services.AddCustomSwagger();
 
 
             //Authentication
-            builder.Services.AddAuthentication(opt =>
-            {
-                opt.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
-                opt.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
-                opt.DefaultScheme = JwtBearerDefaults.AuthenticationScheme;
-            })
-                .AddJwtBearer(options =>
-                {
-                options.SaveToken = true;
-                options.RequireHttpsMetadata = false;
-                options.TokenValidationParameters = new TokenValidationParameters
-                {
-                    ValidateIssuerSigningKey = true,
-                    ValidateAudience = true,
-                    ValidateIssuer = true,
-                    ValidIssuer = builder.Configuration["Appsettings:Issuer"],
-                    ValidAudience = builder.Configuration["Appsettings:Audience"],
-                    IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(
-                            builder.Configuration.GetSection("AppSettings:Token").Value!))
-                };
-                });
+            builder.Services.AddCustomExtension(builder.Configuration);
 
-            builder.Services.AddTransient<IUserService, UserService>();
-            builder.Services.AddTransient<IUserRepo, UserRepo>();
+            
+            builder.Services.AddScoped<IUserService, UserService>();
+            builder.Services.AddScoped<IUserRepo, UserRepo>();
 
-            builder.Services.AddTransient<IProductService, ProductService>();
-            builder.Services.AddTransient<IProductRepo, ProductRepo>();
+            builder.Services.AddScoped<IProductService, ProductService>();
+            builder.Services.AddScoped<IProductRepo, ProductRepo>();
 
-            builder.Services.AddTransient<IOrderService, OrderService>();
-            builder.Services.AddTransient<IOrderRepo, OrderRepo>();
+            builder.Services.AddScoped<IOrderService, OrderService>();
+            builder.Services.AddScoped<IOrderRepo, OrderRepo>();
 
-            builder.Services.AddTransient<IJwtTokenService, JwtTokenService>();
+            builder.Services.AddScoped<IJwtTokenService, JwtTokenService>();
 
             var app = builder.Build();
             app.UseSwagger();
             app.UseSwaggerUI();
-
 
             app.UseRouting();
             app.UseAuthentication();

@@ -11,6 +11,9 @@ namespace TopStyleApi.Domain.Profiles
         {
             CreateMap<OrderItem, AddOrderItemDTO>();
             CreateMap<AddOrderItemDTO, OrderItem>();
+
+            CreateMap<OrderItem, GetOrderItemDTO>();
+            CreateMap<GetOrderItemDTO, OrderItem>();
         }
     }
 }

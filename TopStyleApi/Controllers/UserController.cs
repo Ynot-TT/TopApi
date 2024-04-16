@@ -4,13 +4,14 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using TopStyle.Core.Interfaces;
 using TopStyle.Domain.Auth.Authentication;
-using TopStyle.Domain.Auth.Interface;
 using TopStyle.Domain.DTO;
 using TopStyle.Domain.Entities;
 using TopStyle.Domain.Identity;
 using System.Security.Claims;
 using Microsoft.EntityFrameworkCore;
 using TopStyleApi.Domain.DTO;
+using TopStyle.Domain.Auth.Interface;
+using TopStyleApi.Core.Interfaces;
 
 namespace TopStyle.Controllers
 {
@@ -23,14 +24,16 @@ namespace TopStyle.Controllers
         private readonly UserManager<ApplicationUser> _userManager;
         private readonly SignInManager<ApplicationUser> _signInManager;
         private readonly IJwtTokenService _jwtTokenService;
+        private readonly IOrderService _orderService;
 
-        public UserController(IMapper mapper, IUserService userService, UserManager<ApplicationUser> userManager, SignInManager<ApplicationUser> signInManager, IJwtTokenService jwtTokenService)
+        public UserController(IMapper mapper, IUserService userService, UserManager<ApplicationUser> userManager, SignInManager<ApplicationUser> signInManager, IJwtTokenService jwtTokenService, IOrderService orderService)
         {
             _mapper = mapper;
             _userService = userService;
             _userManager = userManager;
             _signInManager = signInManager;
             _jwtTokenService = jwtTokenService;
+            _orderService = orderService;
         }
 
         [HttpPost]
@@ -63,6 +66,7 @@ namespace TopStyle.Controllers
         [Route("/login")]
         public async Task<IActionResult> Login([FromBody] UserLogInDTO userDTO)
         {
+            
             var user = await _userManager.FindByNameAsync(userDTO.Username);
 
             var result = await _signInManager.CheckPasswordSignInAsync(user!, userDTO.Password, lockoutOnFailure: true);
@@ -70,18 +74,17 @@ namespace TopStyle.Controllers
             {
                 return Unauthorized("Wrong username or password");
             }
-
             var token = _jwtTokenService.CreateToken(user!.Id);
 
-            // Fetch additional user details
             var userDetails = new
             {
                 Username = user.UserName,
                 PhoneNumber = user.PhoneNumber,
                 Email = user.Email
             };
+            var orders = await _orderService.GetOrdersByUserIdAsync(user.Id);
 
-            return Ok(new { Message = "Logged In", Token = token, UserDetails = userDetails });
+            return Ok(new { Message = "Logged In", Token = token, UserDetails = userDetails, Orders = orders });
         }
 
         [HttpGet]

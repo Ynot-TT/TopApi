@@ -17,11 +17,13 @@ namespace TopStyle.Domain.Entities
         [ForeignKey("UserId")]
         public virtual ApplicationUser User { get; set; }
         public string UserId { get; set; }
+        public DateTime OrderDate { get; set; }
         public ICollection<OrderItem> Items { get; set; }
         public int TotalPrice { get; set; }
         public Order()
         {
             Items = new List<OrderItem>();
+            OrderDate = DateTime.Now;
         }
     }
 }

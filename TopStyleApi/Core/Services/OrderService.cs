@@ -1,4 +1,6 @@
 ﻿using AutoMapper;
+using Microsoft.EntityFrameworkCore;
+using TopStyle.Data;
 using TopStyle.Domain.Entities;
 using TopStyleApi.Core.Interfaces;
 using TopStyleApi.Data.Interfaces;
@@ -12,12 +14,14 @@ namespace TopStyleApi.Core.Services
         private readonly IMapper _mapper;
         private readonly IOrderRepo _orderRepo;
         private readonly IProductService _productService;
+        private readonly TopStyleContext _topStyleContext;
 
-        public OrderService(IMapper mapper, IOrderRepo orderRepo, IProductService productService)
+        public OrderService(IMapper mapper, IOrderRepo orderRepo, IProductService productService, TopStyleContext topStyleContext)
         {
             _mapper = mapper;
             _orderRepo = orderRepo;
             _productService = productService;
+            _topStyleContext = topStyleContext;
         }
 
         public async Task AddOrderAsync(AddOrderDTO addOrderDTO, string userId)
@@ -42,7 +46,7 @@ namespace TopStyleApi.Core.Services
             }
         }
 
-        public async Task<int> CalculateTotalOrderPrice(AddOrderDTO orderDTO)
+        public async Task<int?> CalculateTotalOrderPrice(AddOrderDTO orderDTO)
         {
             int totalPrice = 0;
 
@@ -73,6 +77,41 @@ namespace TopStyleApi.Core.Services
         public Task<Order> GetOrderIByIdAsync(int orderId)
         {
             throw new NotImplementedException();
+        }
+
+
+        public async Task<IEnumerable<GetOrderDTO>> GetOrdersByUserIdAsync(string userId)
+        {
+
+            var orders = await _orderRepo.GetOrdersByUserIdAsync(userId);
+            var orderDTOs = new List<GetOrderDTO>();
+
+            foreach (var order in orders)
+            {
+                var orderDTO = new GetOrderDTO
+                {
+                    OrderId = order.OrderId,
+                    OrderDate = order.OrderDate,
+                    TotalPrice = order.TotalPrice,
+                    Items = new List<GetOrderItemDTO>()
+                };
+
+                foreach (var item in order.Items)
+                {
+                    var product = await _topStyleContext.Products.FindAsync(item.ProductId);
+                    var itemDTO = new GetOrderItemDTO
+                    {
+                        ProductName = product?.ProductName, 
+                        Price = product.Price + " kr" ,
+                        Quantity = item.Quantity
+                    };
+                    orderDTO.Items.Add(itemDTO);
+                }
+
+                orderDTOs.Add(orderDTO);
+            }
+
+            return orderDTOs;
         }
 
         public Task UpdateOrderAsync(AddOrderDTO order)
