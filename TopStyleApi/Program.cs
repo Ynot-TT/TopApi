@@ -27,17 +27,17 @@ namespace TopStyleApi
         public static void Main(string[] args)
         {
             //Azure database
-            //username:topstyle
+            //username:top
             //password:Admin123
 
             var builder = WebApplication.CreateBuilder(args);
             builder.Services.AddControllers();
             builder.Services.AddAutoMapper(typeof(Program).Assembly);
 
+            //DataContext
             builder.Services.AddDbContext<TopStyleContext>(options =>
             {
                 options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
-
             });
 
             //Identity
@@ -52,7 +52,7 @@ namespace TopStyleApi
             //Authentication
             builder.Services.AddCustomExtension(builder.Configuration);
 
-            
+
             builder.Services.AddScoped<IUserService, UserService>();
             builder.Services.AddScoped<IUserRepo, UserRepo>();
 

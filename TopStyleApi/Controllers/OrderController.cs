@@ -47,5 +47,30 @@ namespace TopStyleApi.Controllers
                     return StatusCode(500, $"Request failed: {ex.Message}");
                 }
           }
+        [HttpGet("own")]
+        public async Task<ActionResult> GetOwnOrder()
+        {
+            var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+
+            if (string.IsNullOrEmpty(userId))
+            {
+                return Unauthorized("User ID is missing from the token.");
+            }
+
+            try
+            {
+                var order = await _orderService.GetOrdersByUserIdAsync(userId);
+                if (order == null)
+                {
+                    return NotFound("Order not found for the current user.");
+                }
+
+                return Ok(order);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, $"Request failed: {ex.Message}");
+            }
+        }
     }
 }

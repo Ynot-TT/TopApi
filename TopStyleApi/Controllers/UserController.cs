@@ -44,13 +44,11 @@ namespace TopStyle.Controllers
             {
                 return BadRequest("Invalid user data");
             }
-
             var userExists = await _userManager.FindByNameAsync(userDTO.Username);
             if (userExists != null)
             {
                 return BadRequest("UserName already exists");
             }
-
             var user = _mapper.Map<ApplicationUser>(userDTO);    
             var result = await _userManager.CreateAsync(user, userDTO.Password);
 
@@ -66,7 +64,6 @@ namespace TopStyle.Controllers
         [Route("/login")]
         public async Task<IActionResult> Login([FromBody] UserLogInDTO userDTO)
         {
-            
             var user = await _userManager.FindByNameAsync(userDTO.Username);
 
             var result = await _signInManager.CheckPasswordSignInAsync(user!, userDTO.Password, lockoutOnFailure: true);

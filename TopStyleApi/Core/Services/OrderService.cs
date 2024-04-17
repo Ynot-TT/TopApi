@@ -64,22 +64,6 @@ namespace TopStyleApi.Core.Services
 
             return totalPrice;
         }
-        public Task DeleteOrderAsync(int orderId, int userId)
-        {
-            throw new NotImplementedException();
-        }
-
-        public Task<IEnumerable<Order>> GetAllOrders()
-        {
-            throw new NotImplementedException();
-        }
-
-        public Task<Order> GetOrderIByIdAsync(int orderId)
-        {
-            throw new NotImplementedException();
-        }
-
-
         public async Task<IEnumerable<GetOrderDTO>> GetOrdersByUserIdAsync(string userId)
         {
 
@@ -101,7 +85,7 @@ namespace TopStyleApi.Core.Services
                     var product = await _topStyleContext.Products.FindAsync(item.ProductId);
                     var itemDTO = new GetOrderItemDTO
                     {
-                        ProductName = product?.ProductName, 
+                        ProductName = product.ProductName, 
                         Price = product.Price + " kr" ,
                         Quantity = item.Quantity
                     };
@@ -113,12 +97,5 @@ namespace TopStyleApi.Core.Services
 
             return orderDTOs;
         }
-
-        public Task UpdateOrderAsync(AddOrderDTO order)
-        {
-            throw new NotImplementedException();
-        }
-
-        
     }
 }

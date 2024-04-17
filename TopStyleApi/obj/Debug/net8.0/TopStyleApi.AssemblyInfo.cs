@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TopStyleApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+33faddd0324abd7a0a8a72b9c1bc80e1b4d9bb7d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fbeae863269d08b6dd7f9f221c5c6c811244171f")]
 [assembly: System.Reflection.AssemblyProductAttribute("TopStyleApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TopStyleApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
