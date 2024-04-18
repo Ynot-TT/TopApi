@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TopStyleApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+33faddd0324abd7a0a8a72b9c1bc80e1b4d9bb7d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+34ef04bb481654f50ecb7c23ef130e12522e0db4")]
 [assembly: System.Reflection.AssemblyProductAttribute("TopStyleApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TopStyleApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

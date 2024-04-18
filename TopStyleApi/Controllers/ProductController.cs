@@ -27,18 +27,6 @@ namespace TopStyleApi.Controllers
         }
 
         [HttpGet]
-        [Route("/api/product/{productId}")]
-        public async Task<ActionResult<ProductDTO>> GetProductById(int productId)
-        {
-            var product = await _productService.GetProductByIdAsync(productId);
-            if (product == null)
-            {
-                return BadRequest("No product with that id");
-            }
-            return Ok(product);
-        }
-
-        [HttpGet]
         [Route("/api/produts/{title}")]
         public async Task<ActionResult<ProductDTO>> GetProductByTitle(string title)
         {
@@ -52,17 +40,29 @@ namespace TopStyleApi.Controllers
             return Ok(products);
         }
 
-        [HttpPost]
-        [Route("/api/add-product")]
-        public async Task<ActionResult<Product>> AddProduct(ProductDTO productDTO)
-        {
-            if (productDTO == null)
-            {
-                return BadRequest("Invalid parameter");
-            }
-            await _productService.AddProductAsync(productDTO);  
-            
-            return Ok("Product added");
-        }
+        //[HttpGet]
+        //[Route("/api/product/{productId}")]
+        //public async Task<ActionResult<ProductDTO>> GetProductById(int productId)
+        //{
+        //    var product = await _productService.GetProductByIdAsync(productId);
+        //    if (product == null)
+        //    {
+        //        return BadRequest("No product with that id");
+        //    }
+        //    return Ok(product);
+        //}
+
+        //[HttpPost]
+        //[Route("/api/add-product")]
+        //public async Task<ActionResult<Product>> AddProduct(ProductDTO productDTO)
+        //{
+        //    if (productDTO == null)
+        //    {
+        //        return BadRequest("Invalid parameter");
+        //    }
+        //    await _productService.AddProductAsync(productDTO);  
+
+        //    return Ok("Product added");
+        //}
     }
 }

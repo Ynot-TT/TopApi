@@ -25,29 +25,30 @@ namespace TopStyleApi.Controllers
         }
 
         [HttpPost]
-          public async Task<ActionResult> AddOrder(AddOrderDTO addOrderDTO)
-          {
-                var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+        public async Task<ActionResult> AddOrder(AddOrderDTO addOrderDTO)
+        {
+            var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
 
-                if (string.IsNullOrEmpty(userId))
-                {
-                    return Unauthorized("User ID is missing from the token.");
-                }
-                try
-                {
-                    await _orderService.AddOrderAsync(addOrderDTO, userId);
-                    return Ok("Order created successfully.");
-                }
-                catch (InvalidOperationException ex)
-                {
-                    return BadRequest($"Invalid data: {ex.Message}");
-                }
-                catch (Exception ex)
-                {
-                    return StatusCode(500, $"Request failed: {ex.Message}");
-                }
-          }
-        [HttpGet("own")]
+            if (string.IsNullOrEmpty(userId))
+            {
+                return Unauthorized("User ID is missing from the token.");
+            }
+            try
+            {
+                await _orderService.AddOrderAsync(addOrderDTO, userId);
+                return Ok("Order created successfully.");
+            }
+            catch (InvalidOperationException ex)
+            {
+                return BadRequest($"Invalid data: {ex.Message}");
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, $"Request failed: {ex.Message}");
+            }
+        }
+
+        [HttpGet("GetOwnOrders")]
         public async Task<ActionResult> GetOwnOrder()
         {
             var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
@@ -56,7 +57,6 @@ namespace TopStyleApi.Controllers
             {
                 return Unauthorized("User ID is missing from the token.");
             }
-
             try
             {
                 var order = await _orderService.GetOrdersByUserIdAsync(userId);

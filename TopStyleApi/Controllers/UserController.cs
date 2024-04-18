@@ -40,10 +40,6 @@ namespace TopStyle.Controllers
         [Route("/register")]
         public async Task<IActionResult> Register( UserDTO userDTO)
         {
-            if (userDTO == null)
-            {
-                return BadRequest("Invalid user data");
-            }
             var userExists = await _userManager.FindByNameAsync(userDTO.Username);
             if (userExists != null)
             {
@@ -65,7 +61,6 @@ namespace TopStyle.Controllers
         public async Task<IActionResult> Login([FromBody] UserLogInDTO userDTO)
         {
             var user = await _userManager.FindByNameAsync(userDTO.Username);
-
             var result = await _signInManager.CheckPasswordSignInAsync(user!, userDTO.Password, lockoutOnFailure: true);
             if (!result.Succeeded)
             {
@@ -84,50 +79,6 @@ namespace TopStyle.Controllers
             return Ok(new { Message = "Logged In", Token = token, UserDetails = userDetails, Orders = orders });
         }
 
-        [HttpGet]
-        [Route("/api/all-users")]
-        public async Task<ActionResult<UserDTO>> GetAllUsers()
-        {
-            var users = await _userManager.Users.ToListAsync();
-            return Ok(users);
-        }
-
-        //[HttpGet]
-        //[Route("/api/user/{id}")]
-        //public async Task<ActionResult<UserDTO>> GetUser(string id)
-        //{
-        //    var user = await _userService.GetUserByIdAsync(id);
-        //    if (user == null)
-        //    {
-        //        return NotFound("User not found");
-        //    }
-        //    return Ok(user);
-        //}
-
-        //[HttpPut]
-        //[Route("/api/user/{id}")]
-        //public async Task<ActionResult<User>> UpdateUser(int id, [FromBody] UserDTO userDTO)
-        //{
-        //    //if (id != userDTO.UserId)
-        //    //{
-        //    //    return BadRequest("User ID mismatch.");
-        //    //}
-
-        //    //await _userService.UpdateUserAsync(userDTO);
-
-        //    //if (userDTO == null)
-        //    //{
-        //    //    return NotFound("User not found");
-        //    //}
-        //    return Ok(userDTO);
-        //}
-
-        //[HttpDelete]
-        //[Route("/api/user/{id}")]
-        //public async Task<ActionResult> DeleteUser(string id)
-        //{
-        //    await _userService.DeleteUserAsync(id);
-        //    return Ok("User deleted");
-        //}
+        
     }
 }

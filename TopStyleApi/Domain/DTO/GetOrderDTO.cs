@@ -9,6 +9,6 @@ namespace TopStyleApi.Domain.DTO
         public int OrderId { get; set; }
         public DateTime OrderDate { get; set; }
         public ICollection<GetOrderItemDTO> Items { get; set; }
-        public int TotalPrice { get; set; }
+        public string TotalPrice { get; set; }
     }
 }

@@ -76,7 +76,7 @@ namespace TopStyleApi.Core.Services
                 {
                     OrderId = order.OrderId,
                     OrderDate = order.OrderDate,
-                    TotalPrice = order.TotalPrice,
+                    TotalPrice = order.TotalPrice + " kr" ,
                     Items = new List<GetOrderItemDTO>()
                 };
 
